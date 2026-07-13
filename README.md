@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Amen Bank Intelligent Digital Banking Platform
 
 Enterprise internship platform composed of three independent parts:
@@ -41,3 +42,45 @@ AmenBank-Platform/
 ```
 
 Subsequent phases will implement frontend, microservices, notebooks, and DevOps after this knowledge-base foundation is validated.
+=======
+amen-bank-intelligent-platform/
+
+│
+├── frontend/                 # Angular application
+│
+├── backend/                  # FastAPI Microservices
+│   │
+│   ├── gateway/
+│   ├── auth-service/
+│   ├── banking-service/
+│   ├── ai-service/
+│   └── shared/
+│
+├── ai-engine/                # AI development project
+│   │
+│   ├── notebooks/
+│   ├── datasets/
+│   ├── preprocessing/
+│   ├── embeddings/
+│   ├── evaluation/
+│   └── models/
+│
+├── infrastructure/
+│   │
+│   ├── docker/
+│   ├── nginx/
+│   └── scripts/
+│
+├── docs/
+│
+├── .github/
+│   └── workflows/
+│
+├── docker-compose.yml
+│
+├── README.md
+│
+├── .gitignore
+│
+└── LICENSE
+>>>>>>> db684539f79c3a769df1c417e15142753b716f4b
