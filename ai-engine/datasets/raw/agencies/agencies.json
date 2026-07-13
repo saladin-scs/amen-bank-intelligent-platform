@@ -1,0 +1,138 @@
+[
+  {
+    "id": "agy-001",
+    "category": "agencies",
+    "agency_name": "Amen Bank — Siège / Agence principale Tunis Mohamed V",
+    "city": "Tunis",
+    "address": "Avenue Mohamed V, 1002 Tunis",
+    "phone": "+216 71 148 000",
+    "opening_hours": "Lundi–Vendredi : horaires d'ouverture bancaires standards (à confirmer auprès de l'agence). Service digital 24/7 via Amennet et Amen Mobile.",
+    "services_available": [
+      "Banque des particuliers",
+      "Banque des professionnels",
+      "Banque des entreprises",
+      "Opérations de caisse",
+      "Crédits",
+      "Monétique",
+      "Conseil placement"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "agency",
+    "tags": ["Tunis", "siège", "Mohamed V"]
+  },
+  {
+    "id": "agy-002",
+    "category": "agencies",
+    "agency_name": "Espace libre-service La Marsa",
+    "city": "La Marsa",
+    "address": "La Marsa (espace libre-service Amen Bank)",
+    "phone": "+216 71 148 888",
+    "opening_hours": "Accès libre-service selon disponibilité du site ; opérations digitales 24/7.",
+    "services_available": [
+      "Opérations en libre-service",
+      "Accès autonomie client",
+      "Complément au réseau d'agences"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "agency",
+    "tags": ["La Marsa", "libre-service"]
+  },
+  {
+    "id": "agy-003",
+    "category": "agencies",
+    "agency_name": "Espace libre-service Tunis Place du 14 Janvier",
+    "city": "Tunis",
+    "address": "Place du 14 Janvier, Tunis",
+    "phone": "+216 71 148 888",
+    "opening_hours": "Accès libre-service selon disponibilité du site ; opérations digitales 24/7.",
+    "services_available": [
+      "Opérations en libre-service",
+      "Self-care bancaire",
+      "Proximité centre-ville Tunis"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "agency",
+    "tags": ["Tunis", "14 Janvier", "libre-service"]
+  },
+  {
+    "id": "agy-004",
+    "category": "agencies",
+    "agency_name": "Espace libre-service Sousse Khezama",
+    "city": "Sousse",
+    "address": "Khezama, Sousse",
+    "phone": "+216 71 148 888",
+    "opening_hours": "Accès libre-service selon disponibilité du site ; opérations digitales 24/7.",
+    "services_available": [
+      "Opérations en libre-service",
+      "Self-care bancaire",
+      "Couverture régionale Sahel"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "agency",
+    "tags": ["Sousse", "Khezama", "libre-service"]
+  },
+  {
+    "id": "agy-005",
+    "category": "agencies",
+    "agency_name": "Réseau d'agences Amen Bank — couverture nationale",
+    "city": "National",
+    "address": "Plus de 160 agences réparties sur le territoire tunisien sous directions régionales",
+    "phone": "+216 71 148 888",
+    "opening_hours": "Horaires variables selon agence ; confirmation recommandée auprès de l'agence locale ou via Amen Mobile (géolocalisation).",
+    "services_available": [
+      "Ouverture et gestion de comptes",
+      "Crédits et simulations orientées conseiller",
+      "Monétique et TPE",
+      "Opérations internationales",
+      "Conseil épargne et placement",
+      "Services TRE selon agence"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "agency",
+    "tags": ["réseau", "160 agences", "national", "géolocalisation"]
+  },
+  {
+    "id": "agy-006",
+    "category": "agencies",
+    "agency_name": "Localisation d'agences et DAB via Amen Mobile",
+    "city": "National",
+    "address": "Service digital de géolocalisation — toute la Tunisie",
+    "phone": "+216 71 148 888",
+    "opening_hours": "Service de localisation disponible 24/7 dans Amen Mobile",
+    "services_available": [
+      "Géolocalisation de l'agence la plus proche",
+      "Géolocalisation du DAB le plus proche",
+      "Affichage d'itinéraire",
+      "Liste des DAB",
+      "Coordonnées des agences"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "agency",
+    "tags": ["géolocalisation", "DAB", "Amen Mobile", "itinéraire"]
+  },
+  {
+    "id": "agy-007",
+    "category": "agencies",
+    "agency_name": "Amen Bank branch network overview",
+    "city": "Nationwide",
+    "address": "Approximately 160 branches across Tunisia plus self-service areas",
+    "phone": "+216 71 148 888",
+    "opening_hours": "Branch hours vary; digital banking is available 24/7",
+    "services_available": [
+      "Retail and corporate banking desks",
+      "Loan advisory",
+      "Card and ATM services",
+      "Nearest branch/ATM locator in Amen Mobile"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "en",
+    "document_type": "agency",
+    "tags": ["branches", "ATM", "network", "locator"]
+  }
+]

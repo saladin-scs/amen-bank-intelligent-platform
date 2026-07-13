@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+.env
+
+.venv/
+venv/
+
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AI Models
+models/*.bin
+models/*.pt
+models/*.pth
+
+# Vector Database
+chroma/
+*.sqlite3
+
+# Node
+node_modules/
+
+dist/
+
+.angular/
+
+# Environment
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Docker
+docker-volumes/
+
+# Database
+postgres-data/

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "sec-001",
+    "category": "security",
+    "subcategory": "authentication",
+    "title": "Authentification bancaire digitale",
+    "content": "L'accès aux espaces Amennet et Amen Mobile repose sur une authentification du client (identifiants personnels). Les identifiants sont strictement personnels et ne doivent jamais être partagés. La banque historique a renforcé la sécurité en ligne par des mécanismes de certification et d'authentification forte. En cas de suspicion de compromission, le client doit immédiatement modifier ses accès et contacter le centre de relation client.",
+    "recommendations": [
+      "Ne jamais partager vos identifiants",
+      "Utiliser un mot de passe unique et complexe",
+      "Se déconnecter après chaque session sur un appareil partagé",
+      "Vérifier l'URL officielle avant de saisir ses accès"
+    ],
+    "possible_questions": [
+      "Comment m'authentifier sur Amennet ?",
+      "Que faire si j'ai oublié mon mot de passe ?",
+      "Mes identifiants sont-ils personnels ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "security_guidance",
+    "tags": ["authentification", "identifiants", "accès"]
+  },
+  {
+    "id": "sec-002",
+    "category": "security",
+    "subcategory": "mfa",
+    "title": "Authentification forte (MFA) et DIGIPASS",
+    "content": "L'authentification multi-facteurs (MFA) ajoute une preuve supplémentaire (OTP, DIGIPASS, biométrie mobile) lors des connexions ou des opérations sensibles (virements, oppositions, modifications). @mennet a été associé à une sécurisation de type certificat et à l'usage d'un calculateur DIGIPASS. Amen Mobile permet un accès plus rapide via biométrie configurée sur le téléphone. L'MFA réduit fortement le risque d'accès frauduleux même en cas de vol d'identifiant.",
+    "recommendations": [
+      "Activer la biométrie sur un téléphone personnel uniquement",
+      "Protéger le DIGIPASS / dispositif OTP",
+      "Ne jamais communiquer un code reçu à un tiers",
+      "Vérifier le contexte de l'opération avant de valider un OTP"
+    ],
+    "possible_questions": [
+      "Qu'est-ce que l'authentification forte ?",
+      "Comment fonctionne le DIGIPASS Amen Bank ?",
+      "Puis-je me connecter avec la biométrie sur Amen Mobile ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "security_guidance",
+    "tags": ["MFA", "OTP", "DIGIPASS", "biométrie"]
+  },
+  {
+    "id": "sec-003",
+    "category": "security",
+    "subcategory": "account_protection",
+    "title": "Protection du compte",
+    "content": "Protéger un compte bancaire digital implique de sécuriser à la fois les accès, les appareils et les comportements. Le client doit maintenir à jour son application, éviter les réseaux Wi-Fi publics non sécurisés pour les opérations sensibles, activer les notifications lorsqu'elles sont disponibles, et contrôler régulièrement l'historique des mouvements. Toute opération non reconnue doit être signalée sans délai.",
+    "recommendations": [
+      "Mettre à jour Amen Mobile et le système d'exploitation",
+      "Éviter les Wi-Fi publics pour les virements",
+      "Surveiller l'historique des opérations",
+      "Signaler immédiatement toute anomalie",
+      "Faire opposition carte en cas de perte ou vol"
+    ],
+    "possible_questions": [
+      "How can I protect my account?",
+      "Comment protéger mon compte ?",
+      "Que faire en cas d'opération suspecte ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "security_guidance",
+    "tags": ["protection compte", "bonnes pratiques", "surveillance"]
+  },
+  {
+    "id": "sec-004",
+    "category": "security",
+    "subcategory": "secure_access",
+    "title": "Accès sécurisé aux canaux officiels",
+    "content": "L'accès sécurisé passe exclusivement par les canaux officiels : site amenbank.com.tn, plateforme amennet.com.tn, applications Amen Mobile publiées sur les stores officiels. Le client doit se méfier des liens reçus par SMS/e-mail non sollicités, des faux sites de phishing et des demandes d'identifiants par téléphone. Amen Bank ne demande jamais le mot de passe complet ou un code OTP par un canal non authentifié.",
+    "recommendations": [
+      "Télécharger Amen Mobile uniquement depuis Google Play ou App Store",
+      "Vérifier le certificat HTTPS et le nom de domaine",
+      "Ignorer les liens suspects",
+      "Ne jamais communiquer un OTP à un interlocuteur non vérifié"
+    ],
+    "possible_questions": [
+      "Comment savoir si je suis sur le vrai site Amen Bank ?",
+      "Amen Bank peut-elle me demander mon mot de passe par téléphone ?",
+      "Où télécharger légitimement Amen Mobile ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "security_guidance",
+    "tags": ["phishing", "canaux officiels", "HTTPS", "stores"]
+  },
+  {
+    "id": "sec-005",
+    "category": "security",
+    "subcategory": "fraud_prevention",
+    "title": "Prévention de la fraude",
+    "content": "La prévention de la fraude combine contrôles bancaires et vigilance client. Bonnes pratiques : activer/désactiver l'usage international de carte selon les voyages, utiliser l'opposition immédiate, limiter les plafonds lorsque possible, ne jamais partager de captures d'écran contenant des données sensibles, et former l'entourage (surtout jeunes utilisateurs) aux risques d'arnaques. En cas de fraude avérée ou suspectée, opposition + contact support + dépôt de plainte si nécessaire.",
+    "recommendations": [
+      "Gérer le déblocage international avec parcimonie",
+      "Utiliser l'opposition carte immédiatement",
+      "Contrôler les plafonds et encours",
+      "Sensibiliser les utilisateurs du foyer",
+      "Conserver les preuves en cas de litige"
+    ],
+    "possible_questions": [
+      "How can I protect my account from fraud?",
+      "Comment éviter la fraude sur ma carte ?",
+      "Que faire si je suis victime d'une arnaque bancaire ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "security_guidance",
+    "tags": ["fraude", "arnaque", "opposition", "prévention"]
+  },
+  {
+    "id": "sec-006",
+    "category": "security",
+    "subcategory": "account_protection",
+    "title": "How to protect your Amen Bank account",
+    "content": "Protecting your Amen Bank digital account requires strong unique passwords, multi-factor authentication, official mobile apps only, careful review of transactions, and immediate reporting of suspicious activity. Never share OTP codes or DIGIPASS responses. Use card opposition features if a payment card is lost or stolen, and unlock international card usage only when traveling.",
+    "recommendations": [
+      "Use MFA / biometrics on personal devices",
+      "Download apps from official stores only",
+      "Monitor transactions regularly",
+      "Block lost cards immediately",
+      "Contact customer service if fraud is suspected"
+    ],
+    "possible_questions": [
+      "How can I protect my account?",
+      "What should I do if I suspect fraud?",
+      "Is biometrics safe on Amen Mobile?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "en",
+    "document_type": "security_guidance",
+    "tags": ["account protection", "fraud", "MFA", "security"]
+  }
+]

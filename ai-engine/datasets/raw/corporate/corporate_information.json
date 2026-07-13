@@ -1,0 +1,134 @@
+[
+  {
+    "id": "corp-001",
+    "category": "corporate",
+    "subcategory": "presentation",
+    "title": "Présentation d'Amen Bank",
+    "content": "Amen Bank est une société anonyme régie par la loi n°2001-65 du 10 juillet 2001 relative aux établissements de crédit, telle que modifiée et complétée. Elle est la première banque entièrement privée tunisienne et constitue la deuxième banque privée du pays en termes de bilan. Amen Bank est une institution bancaire universelle appartenant au Groupe Amen, un holding diversifié offrant d'importantes synergies. La banque accompagne particuliers, professionnels et entreprises sur l'ensemble du territoire tunisien. Son slogan est « Le partenaire de votre succès ».",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_profile",
+    "tags": ["présentation", "identité", "groupe amen", "banque privée"]
+  },
+  {
+    "id": "corp-002",
+    "category": "corporate",
+    "subcategory": "history",
+    "title": "Histoire d'Amen Bank",
+    "content": "Les origines d'Amen Bank remontent au XIXe siècle sous la dénomination de Crédit foncier d'Algérie et de Tunisie. Au début des années 1970, l'établissement est repris par le groupe familial Ben Yedder et devient le Crédit foncier et commercial de Tunisie. En 1995, la banque adopte son nom actuel, Amen Bank, signifiant « Banque de la sécurité ». Cotée à la Bourse de Tunis sous le ticker AB, elle a progressivement consolidé son positionnement de banque universelle. En 2015, Amen Bank lance Amen First Bank, première banque en ligne en Tunisie. En 2017, elle crée le pack Watani destiné aux Tunisiens résidant à l'étranger (TRE).",
+    "source": "https://fr.wikipedia.org/wiki/Amen_Bank",
+    "language": "fr",
+    "document_type": "corporate_history",
+    "tags": ["histoire", "fondation", "évolution", "amen first bank", "watani"]
+  },
+  {
+    "id": "corp-003",
+    "category": "corporate",
+    "subcategory": "vision",
+    "title": "Vision d'Amen Bank",
+    "content": "La vision d'Amen Bank est d'être le partenaire de référence du succès de ses clients et du développement économique de la Tunisie. La banque aspire à combiner proximité humaine, innovation digitale et solidité financière pour offrir une expérience bancaire moderne, sécurisée et accessible. Elle vise un leadership durable sur le marché bancaire tunisien grâce à l'excellence opérationnelle, à la transformation numérique et à une gouvernance dualiste robuste.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_vision",
+    "tags": ["vision", "stratégie", "leadership", "innovation"]
+  },
+  {
+    "id": "corp-004",
+    "category": "corporate",
+    "subcategory": "mission",
+    "title": "Mission d'Amen Bank",
+    "content": "Amen Bank se consacre à offrir le meilleur service à ses clients et à soutenir le développement économique de la Tunisie. La banque a défini trois objectifs principaux : servir, innover et favoriser la réussite. Sa mission consiste à accompagner les projets des particuliers, des entrepreneurs et des entreprises en proposant des solutions de financement, d'épargne, d'investissement et de bancassurance adaptées. Elle s'appuie sur un réseau national d'agences, des canaux digitaux (@mennet, Amen Mobile) et des équipes compétentes pour rester proche de chaque client.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_mission",
+    "tags": ["mission", "servir", "innover", "réussite", "accompagnement"]
+  },
+  {
+    "id": "corp-005",
+    "category": "corporate",
+    "subcategory": "strategy",
+    "title": "Stratégie d'Amen Bank",
+    "content": "La stratégie d'Amen Bank repose sur plusieurs piliers : (1) le renforcement de la relation client via un réseau d'environ 160 agences et des directions régionales ; (2) l'accélération de la transformation digitale à travers @mennet, Amen Mobile et Amen First Bank ; (3) le développement des métiers de banque de détail, banque des entreprises et banque privée ; (4) l'accompagnement des Tunisiens résidant à l'étranger avec des offres dédiées ; (5) la consolidation de la gouvernance, de la conformité et de la maîtrise des risques. Cette stratégie vise à concilier proximité, innovation et performance durable.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_strategy",
+    "tags": ["stratégie", "digital", "réseau", "entreprises", "TRE"]
+  },
+  {
+    "id": "corp-006",
+    "category": "corporate",
+    "subcategory": "values",
+    "title": "Valeurs d'Amen Bank",
+    "content": "Les valeurs d'Amen Bank s'inscrivent dans l'esprit de son nom, « Banque de la sécurité ». Elles comprennent la confiance, la proximité client, l'intégrité, l'innovation responsable et l'engagement pour le développement économique national. Le code de gouvernance et le code de déontologie de la banque encadrent la conduite professionnelle, la gestion des conflits d'intérêts, la conformité réglementaire et la lutte contre les délits d'initiés. La nouvelle identité visuelle d'Amen Bank met en avant le vert, couleur de référence symbolisant l'espoir, la continuité et la fidélité aux engagements de la banque.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_values",
+    "tags": ["valeurs", "confiance", "intégrité", "gouvernance", "identité visuelle"]
+  },
+  {
+    "id": "corp-007",
+    "category": "corporate",
+    "subcategory": "international_positioning",
+    "title": "Positionnement international d'Amen Bank",
+    "content": "Amen Bank dispose d'un code SWIFT/BIC CFCTTNTT permettant les opérations bancaires internationales. La banque accompagne les clients dans leurs opérations de commerce extérieur (crédits documentaires, virements internationaux, lettres de crédit) et propose des offres dédiées aux Tunisiens résidant à l'étranger, notamment le pack Watani. Grâce à son appartenance au Groupe Amen, qui développe également des activités à l'international, Amen Bank bénéficie de synergies facilitant l'accompagnement des flux transfrontaliers et des besoins des clients à mobilité internationale.",
+    "source": "https://themoney.tn/wiki/amen-bank/",
+    "language": "fr",
+    "document_type": "corporate_international",
+    "tags": ["international", "SWIFT", "CFCTTNTT", "TRE", "commerce extérieur"]
+  },
+  {
+    "id": "corp-008",
+    "category": "corporate",
+    "subcategory": "partnerships",
+    "title": "Partenariats et appartenance au Groupe Amen",
+    "content": "Amen Bank fait partie du Groupe Amen, holding diversifié regroupant de nombreuses sociétés gérées sous la holding PGI. Le Groupe Amen détient une participation majoritaire au capital de la banque. Les activités du groupe couvrent notamment les services financiers spécialisés, le commerce de biens d'équipement, l'assurance et d'autres secteurs. Cette appartenance offre des synergies commerciales et une stabilité actionnariale. Amen Bank collabore également avec des partenaires techniques pour la sécurisation digitale (certificats de sécurité, authentification forte) et le développement de canaux numériques.",
+    "source": "https://themoney.tn/wiki/amen-bank/",
+    "language": "fr",
+    "document_type": "corporate_partnerships",
+    "tags": ["partenariats", "groupe amen", "PGI holding", "synergies"]
+  },
+  {
+    "id": "corp-009",
+    "category": "corporate",
+    "subcategory": "corporate_identity",
+    "title": "Identité corporative et gouvernance",
+    "content": "Amen Bank a adopté un mode de gouvernance dualiste fondé sur un Conseil de Surveillance et un Directoire, après approbation de son Assemblée Générale Extraordinaire. Le Conseil de Surveillance exerce le contrôle permanent de la gestion. Le Directoire dispose des pouvoirs nécessaires pour agir au nom de la banque. La banque a mis en place un code de gouvernance, des comités d'audit et de risques présidés par des membres indépendants, ainsi qu'une politique de conformité. Siège social : Avenue Mohamed V, 1002 Tunis. Capital social de référence communiqué publiquement : environ 132 405 000 TND. Site institutionnel : www.amenbank.com.tn. Plateforme bancaire en ligne : www.amennet.com.tn.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_identity",
+    "tags": ["gouvernance", "directoire", "conseil de surveillance", "siège", "capital"]
+  },
+  {
+    "id": "corp-010",
+    "category": "corporate",
+    "subcategory": "network",
+    "title": "Réseau d'agences et couverture nationale",
+    "content": "Amen Bank opère sur l'ensemble du territoire tunisien grâce à un large réseau d'environ 160 agences réparties sous plusieurs directions régionales. Ce réseau est complété par des espaces libre-service (notamment à La Marsa, Tunis Place du 14 Janvier et Sousse Khezama), des guichets automatiques bancaires (DAB) et des canaux digitaux 24/7. Le client peut localiser l'agence ou le DAB le plus proche via l'application Amen Mobile. Cette couverture multi-canal permet de combiner conseil en agence et autonomie digitale.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "corporate_network",
+    "tags": ["agences", "réseau", "DAB", "libre-service", "proximité"]
+  },
+  {
+    "id": "corp-011",
+    "category": "corporate",
+    "subcategory": "presentation",
+    "title": "Amen Bank Corporate Overview",
+    "content": "Amen Bank is a Tunisian joint-stock company governed by banking legislation on credit institutions. It is the first fully private Tunisian bank and one of the country's leading private banking institutions. As a universal bank within the diversified Amen Group, it serves individuals, professionals, and corporates nationwide. Its three core goals are to serve, innovate, and help customers succeed. Digital channels include Amennet and Amen Mobile. The bank's slogan is \"The partner of your success\".",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "en",
+    "document_type": "corporate_profile",
+    "tags": ["overview", "identity", "private bank", "amen group"]
+  },
+  {
+    "id": "corp-012",
+    "category": "corporate",
+    "subcategory": "mission",
+    "title": "Amen Bank Mission and Goals",
+    "content": "Amen Bank is dedicated to delivering high-quality banking services and supporting Tunisia's economic development. Its mission prioritizes customer service excellence, continuous innovation, and enabling customer success. The bank combines a nationwide branch network with secure digital platforms to provide financing, savings, investment, and payment solutions tailored to each customer segment.",
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "en",
+    "document_type": "corporate_mission",
+    "tags": ["mission", "serve", "innovate", "success"]
+  }
+]

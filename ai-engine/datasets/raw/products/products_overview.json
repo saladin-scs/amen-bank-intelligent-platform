@@ -1,0 +1,46 @@
+[
+  {
+    "id": "prd-001",
+    "category": "products",
+    "subcategory": "digital",
+    "title": "Amen First Bank",
+    "content": "Amen First Bank est la première banque en ligne lancée par Amen Bank en Tunisie (2015). Elle s'inscrit dans la stratégie de transformation digitale du groupe et complète @mennet et Amen Mobile pour élargir l'accès aux services bancaires à distance.",
+    "source": "https://fr.wikipedia.org/wiki/Amen_Bank",
+    "language": "fr",
+    "document_type": "product",
+    "tags": ["amen first bank", "banque en ligne", "digital"]
+  },
+  {
+    "id": "prd-002",
+    "category": "products",
+    "subcategory": "packs",
+    "title": "Pack Watani",
+    "content": "Le pack Watani est destiné aux Tunisiens résidant à l'étranger. Il vise à simplifier la gestion des besoins bancaires en Tunisie depuis l'étranger : relation à distance, opérations internationales et accompagnement des projets locaux (immobilier, épargne).",
+    "source": "https://fr.wikipedia.org/wiki/Amen_Bank",
+    "language": "fr",
+    "document_type": "product",
+    "tags": ["Watani", "TRE", "pack"]
+  },
+  {
+    "id": "prd-003",
+    "category": "products",
+    "subcategory": "payments",
+    "title": "Dinar Express",
+    "content": "Dinar Express fait partie des solutions de paiement / innovation de service référencées dans l'écosystème digital Amen Bank aux côtés d'@mennet et Amen Mobile. Pour les détails tarifaires et d'éligibilité, le client doit se référer aux conditions en vigueur publiées par la banque ou s'adresser à son agence.",
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "product",
+    "tags": ["dinar express", "paiement", "innovation"]
+  },
+  {
+    "id": "prd-004",
+    "category": "products",
+    "subcategory": "overview",
+    "title": "Gamme de produits Amen Bank — vue fonctionnelle",
+    "content": "Amen Bank commercialise une gamme de produits de banque universelle : comptes et moyens de paiement, épargne, crédits aux particuliers et aux entreprises, monétique, trade finance, change, et placements (SICAV / marchés). La distribution est multi-canal : réseau d'agences, @mennet, Amen Mobile, espaces libre-service.",
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "product",
+    "tags": ["gamme", "produits", "banque universelle"]
+  }
+]

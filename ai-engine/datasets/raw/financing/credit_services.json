@@ -1,0 +1,217 @@
+[
+  {
+    "id": "fin-001",
+    "category": "financing",
+    "credit_type": "Crédit immobilier",
+    "title": "Crédit immobilier Amen Bank",
+    "description": "Le crédit immobilier Amen Bank finance l'acquisition, la construction ou l'amélioration d'un bien immobilier. Il s'adresse aux particuliers et, selon conditions, aux TRE. La durée, le taux et les garanties dépendent du profil emprunteur, de l'apport et de la nature du projet. Une étude de dossier est réalisée par la banque après simulation indicative et constitution du dossier.",
+    "eligibility": [
+      "Être client ou devenir client Amen Bank",
+      "Justifier de revenus stables et suffisants",
+      "Présenter un projet immobilier documenté",
+      "Respecter les ratios d'endettement applicables",
+      "Fournir les garanties exigées (hypothèque, assurance, etc.)"
+    ],
+    "required_documents": [
+      "Pièce d'identité",
+      "Justificatifs de revenus (bulletins, déclarations)",
+      "Justificatif de domicile",
+      "Promesse de vente ou devis / permis selon projet",
+      "Relevés de comptes",
+      "Documents relatifs aux garanties et assurances"
+    ],
+    "simulation_parameters": [
+      "Montant emprunté",
+      "Durée de remboursement",
+      "Taux indicatif",
+      "Apport personnel",
+      "Revenus mensuels",
+      "Charges de crédit existantes"
+    ],
+    "possible_customer_questions": [
+      "Comment simuler un crédit immobilier ?",
+      "Quels documents sont nécessaires pour un prêt habitat ?",
+      "Comment est calculée ma capacité d'emprunt ?",
+      "Puis-je obtenir un crédit immobilier en tant que TRE ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "financing_product",
+    "tags": ["crédit immobilier", "habitat", "simulation", "hypothèque"]
+  },
+  {
+    "id": "fin-002",
+    "category": "financing",
+    "credit_type": "Crédit à la consommation",
+    "title": "Crédit à la consommation",
+    "description": "Le crédit à la consommation finance des besoins personnels (équipement, projets, trésorerie personnelle) dans la limite d'un montant et d'une durée définis par la politique crédit de la banque. Il peut être simulé via Amen Mobile avant dépôt de dossier. L'octroi reste soumis à analyse de solvabilité et à la réglementation en vigueur.",
+    "eligibility": [
+      "Capacité de remboursement démontrée",
+      "Situation financière saine",
+      "Conformité KYC à jour",
+      "Respect des plafonds d'endettement"
+    ],
+    "required_documents": [
+      "Pièce d'identité",
+      "Justificatifs de revenus",
+      "Relevés bancaires",
+      "Justificatif du projet si demandé",
+      "Garanties complémentaires éventuelles"
+    ],
+    "simulation_parameters": [
+      "Montant souhaité",
+      "Durée",
+      "Taux indicatif",
+      "Mensualité cible",
+      "Revenus et charges"
+    ],
+    "possible_customer_questions": [
+      "Comment simuler un crédit à la consommation ?",
+      "Quelle information est requise pour une simulation de crédit ?",
+      "Puis-je faire une demande de crédit en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "financing_product",
+    "tags": ["crédit consommation", "simulation", "particuliers"]
+  },
+  {
+    "id": "fin-003",
+    "category": "financing",
+    "credit_type": "Simulation de crédit",
+    "title": "Service de simulation de crédit",
+    "description": "Le simulateur de crédit disponible sur Amen Mobile permet d'estimer une mensualité ou une capacité d'emprunt à partir de paramètres saisis par l'utilisateur. La simulation est indicative et non contractuelle. Elle n'entraîne pas d'octroi automatique. Après simulation, le client peut se rapprocher de son agence ou initier une demande formalisée pour étude complète.",
+    "eligibility": [
+      "Accessible depuis Amen Mobile",
+      "Certaines fonctions informatives peuvent être ouvertes sans être client",
+      "L'étude définitive nécessite un dossier bancaire"
+    ],
+    "required_documents": [
+      "Aucun document pour la simulation indicative",
+      "Dossier complet requis pour l'instruction réelle"
+    ],
+    "simulation_parameters": [
+      "Montant du crédit",
+      "Durée",
+      "Taux",
+      "Type de crédit",
+      "Revenus (pour capacité d'emprunt)",
+      "Charges d'endettement existantes"
+    ],
+    "possible_customer_questions": [
+      "How can I simulate a loan?",
+      "Comment simuler un prêt ?",
+      "What information is required for a credit simulation?",
+      "Quelles informations sont requises pour une simulation de crédit ?",
+      "How is borrowing capacity calculated?",
+      "Comment est calculée la capacité d'emprunt ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "financing_service",
+    "tags": ["simulation", "capacité d'emprunt", "amen mobile", "indicatif"]
+  },
+  {
+    "id": "fin-004",
+    "category": "financing",
+    "credit_type": "Crédit professionnel / entreprise",
+    "title": "Financement professionnel et entreprise",
+    "description": "Amen Bank propose des financements d'exploitation (facilités de caisse, crédits de trésorerie) et d'investissement pour professionnels et entreprises. Les lignes peuvent financer le cycle d'exploitation, l'équipement ou des projets de croissance. L'instruction s'appuie sur les états financiers, le business plan et les garanties. Des demandes de crédits peuvent être initiées ou suivies via @mennet selon le profil corporate.",
+    "eligibility": [
+      "Entreprise ou professionnel avec activité justifiée",
+      "Situation fiscale et sociale à jour",
+      "Capacité de remboursement démontrée",
+      "Garanties adaptées au risque"
+    ],
+    "required_documents": [
+      "Registre de commerce / statut",
+      "États financiers",
+      "Prévisionnels / business plan",
+      "Relevés de comptes",
+      "Documents de garanties",
+      "Pièces des dirigeants"
+    ],
+    "simulation_parameters": [
+      "Montant demandé",
+      "Objet du financement",
+      "Durée",
+      "Cash-flows prévisionnels",
+      "Garanties proposées"
+    ],
+    "possible_customer_questions": [
+      "Quels crédits sont disponibles pour les entreprises ?",
+      "Comment demander un financement d'équipement ?",
+      "Puis-je suivre mes crédits octroyés sur Amennet ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "financing_product",
+    "tags": ["entreprises", "professionnels", "trésorerie", "investissement"]
+  },
+  {
+    "id": "fin-005",
+    "category": "financing",
+    "credit_type": "Demande de crédit",
+    "title": "Parcours de demande de crédit",
+    "description": "Une demande de crédit suit un parcours standard : simulation indicative, constitution du dossier, dépôt en agence ou initiée via canaux digitaux, analyse de risque, décision, contractualisation puis déblocage. Le client peut être amené à fournir des pièces complémentaires. Le suivi des crédits accordés est ensuite disponible en consultation digitale.",
+    "eligibility": [
+      "Remplir les critères du produit de crédit ciblé",
+      "Dossier complet et cohérent",
+      "Décision favorable du comité / délégation compétente"
+    ],
+    "required_documents": [
+      "Selon le type de crédit (immobilier, consommation, professionnel)",
+      "Pièces d'identité et revenus",
+      "Justificatifs de projet",
+      "Garanties"
+    ],
+    "simulation_parameters": [
+      "Type de crédit",
+      "Montant",
+      "Durée",
+      "Apport",
+      "Revenus / états financiers"
+    ],
+    "possible_customer_questions": [
+      "Quelles sont les étapes pour obtenir un crédit ?",
+      "Combien de temps faut-il pour l'étude d'un dossier de crédit ?",
+      "Puis-je démarrer ma demande de crédit en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "financing_service",
+    "tags": ["demande", "parcours", "instruction", "déblocage"]
+  },
+  {
+    "id": "fin-006",
+    "category": "financing",
+    "credit_type": "Capacité d'emprunt",
+    "title": "Calcul indicatif de la capacité d'emprunt",
+    "description": "La capacité d'emprunt est estimée en croisant les revenus nets, les charges de crédit existantes, le taux d'endettement admissible, la durée souhaitée et le taux d'intérêt indicatif. Une formule simplifiée consiste à déterminer la mensualité maximale supportable, puis à en déduire un capital empruntable. Le résultat d'une simulation digitale est purement indicatif ; seule l'analyse bancaire complète fixe l'offre réelle.",
+    "eligibility": [
+      "Données de revenus et charges fiables",
+      "Absence d'interdiction bancaire ou judiciaire applicable"
+    ],
+    "required_documents": [
+      "Justificatifs de revenus pour validation réelle",
+      "Tableau des crédits en cours"
+    ],
+    "simulation_parameters": [
+      "Revenus mensuels nets",
+      "Charges de remboursement actuelles",
+      "Taux d'endettement max",
+      "Durée",
+      "Taux d'intérêt",
+      "Assurance emprunteur estimée"
+    ],
+    "possible_customer_questions": [
+      "How is borrowing capacity calculated?",
+      "Comment est calculée la capacité d'emprunt ?",
+      "Pourquoi ma simulation diffère-t-elle de l'offre finale ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "financing_education",
+    "tags": ["capacité d'emprunt", "endettement", "mensualité", "simulation"]
+  }
+]

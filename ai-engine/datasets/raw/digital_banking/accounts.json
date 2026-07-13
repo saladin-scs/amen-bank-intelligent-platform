@@ -1,0 +1,167 @@
+[
+  {
+    "id": "acc-001",
+    "category": "digital_banking",
+    "subcategory": "accounts",
+    "title": "Consultation des comptes",
+    "content": "La banque digitale Amen Bank (@mennet et Amen Mobile) permet de consulter la liste des comptes rattachés au profil client. L'utilisateur peut visualiser le type de compte, le libellé, la devise et le statut du compte. Cette fonctionnalité sert à obtenir une vue consolidée des avoirs sans se déplacer en agence. Aucune donnée de compte démo ne doit être utilisée comme référence métier : seuls les mécanismes fonctionnels sont documentés.",
+    "features": [
+      "Liste des comptes du client",
+      "Affichage du type et du libellé",
+      "Accès au détail d'un compte sélectionné",
+      "Navigation multi-compte"
+    ],
+    "workflow": [
+      "S'authentifier sur Amennet ou Amen Mobile",
+      "Accéder au module Comptes",
+      "Sélectionner un compte",
+      "Consulter le détail et les opérations associées"
+    ],
+    "possible_questions": [
+      "Comment consulter mes comptes en ligne ?",
+      "Puis-je voir tous mes comptes Amen Bank depuis Amen Mobile ?",
+      "Où trouver le détail d'un compte sur @mennet ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["comptes", "consultation", "amennet", "amen mobile"]
+  },
+  {
+    "id": "acc-002",
+    "category": "digital_banking",
+    "subcategory": "accounts",
+    "title": "Consultation du solde",
+    "content": "La consultation du solde permet d'afficher le solde disponible et le solde comptable d'un compte en temps réel via @mennet et Amen Mobile. Cette fonctionnalité aide le client à piloter sa trésorerie personnelle ou professionnelle. Les soldes affichés sont strictement liés au profil authentifié ; le système ne doit jamais exposer ni indexer de soldes d'exemples ou de comptes de démonstration dans la base de connaissances.",
+    "features": [
+      "Solde en temps réel",
+      "Distinction solde disponible / solde comptable selon disponibilité produit",
+      "Actualisation après opérations",
+      "Accès mobile et web"
+    ],
+    "workflow": [
+      "Se connecter au canal digital",
+      "Ouvrir le compte souhaité",
+      "Lire le solde affiché",
+      "Actualiser si nécessaire"
+    ],
+    "possible_questions": [
+      "Comment voir mon solde en temps réel ?",
+      "Quelle est la différence entre solde disponible et solde comptable ?",
+      "Le solde Amen Mobile est-il mis à jour instantanément ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["solde", "temps réel", "trésorerie"]
+  },
+  {
+    "id": "acc-003",
+    "category": "digital_banking",
+    "subcategory": "accounts",
+    "title": "Historique des transactions",
+    "content": "L'historique des transactions présente les mouvements débit et crédit du compte : libellé, date comptable, date de valeur et montant. Sur Amen Mobile et @mennet, le client peut suivre ses opérations récentes et naviguer dans l'historique. Cette consultation facilite le contrôle des dépenses et la réconciliation personnelle. La connaissance métier décrit uniquement les capacités fonctionnelles, sans exemples de montants ou d'opérations personnelles.",
+    "features": [
+      "Liste chronologique des mouvements",
+      "Libellés d'opération",
+      "Montants débit/crédit",
+      "Pagination ou défilement de l'historique"
+    ],
+    "workflow": [
+      "Sélectionner un compte",
+      "Ouvrir l'onglet Mouvements / Historique",
+      "Parcourir les opérations",
+      "Ouvrir le détail d'une opération si disponible"
+    ],
+    "possible_questions": [
+      "Comment consulter l'historique de mon compte ?",
+      "Puis-je voir mes dernières opérations sur Amen Mobile ?",
+      "Où trouver le détail d'un mouvement bancaire ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["historique", "mouvements", "transactions"]
+  },
+  {
+    "id": "acc-004",
+    "category": "digital_banking",
+    "subcategory": "accounts",
+    "title": "Recherche de mouvements",
+    "content": "La recherche de mouvements permet de filtrer l'historique selon des critères tels que période, type d'opération, sens (débit/crédit) ou mot-clé du libellé. Elle accélère le contrôle d'une opération précise sans parcourir tout l'historique. Cette capacité est essentielle pour le support client et l'assistant bancaire intelligent, qui doivent guider l'utilisateur vers les bons filtres sans exposer de données personnelles.",
+    "features": [
+      "Filtre par période",
+      "Filtre par type d'opération",
+      "Recherche textuelle sur libellé",
+      "Filtre débit / crédit"
+    ],
+    "workflow": [
+      "Accéder à l'historique du compte",
+      "Ouvrir la recherche ou les filtres",
+      "Saisir les critères",
+      "Lancer la recherche et analyser les résultats"
+    ],
+    "possible_questions": [
+      "Comment rechercher une opération précise ?",
+      "Puis-je filtrer mes mouvements par date ?",
+      "Comment retrouver un virement dans l'historique ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["recherche", "filtres", "mouvements"]
+  },
+  {
+    "id": "acc-005",
+    "category": "digital_banking",
+    "subcategory": "accounts",
+    "title": "Téléchargement de relevés",
+    "content": "Le téléchargement de relevés permet d'obtenir les documents de compte (relevés périodiques, extraits) au format numérique depuis @mennet. Le client sélectionne le compte et la période, puis télécharge le document pour archivage, comptabilité ou justificatif. Cette fonctionnalité complète la consultation en ligne et réduit les demandes papier en agence.",
+    "features": [
+      "Sélection du compte",
+      "Choix de la période",
+      "Téléchargement du relevé",
+      "Accès aux documents disponibles en ligne"
+    ],
+    "workflow": [
+      "Se connecter à @mennet",
+      "Accéder aux documents / relevés",
+      "Choisir le compte et la période",
+      "Télécharger le fichier"
+    ],
+    "possible_questions": [
+      "Comment télécharger mon relevé de compte ?",
+      "Puis-je obtenir un extrait de compte en PDF ?",
+      "Où sont stockés mes relevés sur Amennet ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["relevés", "téléchargement", "documents", "PDF"]
+  },
+  {
+    "id": "acc-006",
+    "category": "digital_banking",
+    "subcategory": "accounts",
+    "title": "Échelles d'intérêts et informations de compte",
+    "content": "Outre le solde et les mouvements, @mennet donne accès aux informations associées au compte, notamment les échelles d'intérêts lorsque applicables. Cette consultation permet au client de comprendre les conditions appliquées à son compte ou à ses placements liés. Elle s'inscrit dans la transparence des informations produit mises à disposition via la banque digitale.",
+    "features": [
+      "Consultation des informations de compte",
+      "Accès aux échelles d'intérêts",
+      "Transparence des conditions associées"
+    ],
+    "workflow": [
+      "Ouvrir le détail du compte",
+      "Accéder aux informations / conditions",
+      "Consulter les échelles d'intérêts disponibles"
+    ],
+    "possible_questions": [
+      "Comment consulter les échelles d'intérêts ?",
+      "Où voir les conditions de mon compte en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["intérêts", "conditions", "informations compte"]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "tq-001",
+    "question": "Comment effectuer un virement ?",
+    "expected_category": "transfer",
+    "expected_source": "transfers.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-002",
+    "question": "Quelles sont les étapes pour faire un virement bancaire ?",
+    "expected_category": "transfer",
+    "expected_source": "transfers.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-003",
+    "question": "Comment mettre en place un virement permanent ?",
+    "expected_category": "transfer",
+    "expected_source": "transfers.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-004",
+    "question": "Puis-je faire un virement groupé pour payer plusieurs fournisseurs ?",
+    "expected_category": "transfer",
+    "expected_source": "transfers.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-005",
+    "question": "Comment consulter l'historique de mes virements ?",
+    "expected_category": "transfer",
+    "expected_source": "transfers.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-006",
+    "question": "How do I transfer money between my Amen Bank accounts?",
+    "expected_category": "transfer",
+    "expected_source": "transfers.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-007",
+    "question": "Comment consulter mon solde en temps réel ?",
+    "expected_category": "accounts",
+    "expected_source": "accounts.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-008",
+    "question": "Où télécharger mon relevé de compte ?",
+    "expected_category": "accounts",
+    "expected_source": "accounts.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-009",
+    "question": "Comment rechercher une opération dans mon historique ?",
+    "expected_category": "accounts",
+    "expected_source": "accounts.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-010",
+    "question": "Puis-je voir tous mes comptes sur Amen Mobile ?",
+    "expected_category": "accounts",
+    "expected_source": "accounts.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-011",
+    "question": "How can I check my account transactions online?",
+    "expected_category": "accounts",
+    "expected_source": "accounts.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-012",
+    "question": "Comment faire opposition sur ma carte Amen Bank ?",
+    "expected_category": "cards",
+    "expected_source": "cards_monetique.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-013",
+    "question": "Comment recharger ma carte prépayée ?",
+    "expected_category": "cards",
+    "expected_source": "cards_monetique.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-014",
+    "question": "Comment débloquer ma carte pour un voyage à l'étranger ?",
+    "expected_category": "cards",
+    "expected_source": "cards_monetique.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-015",
+    "question": "Où voir les plafonds et encours de ma carte ?",
+    "expected_category": "cards",
+    "expected_source": "cards_monetique.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-016",
+    "question": "Comment consulter mes opérations TPE ?",
+    "expected_category": "cards",
+    "expected_source": "cards_monetique.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-017",
+    "question": "Puis-je retirer de l'argent sans carte avec Amen Mobile ?",
+    "expected_category": "cards",
+    "expected_source": "cards_monetique.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-018",
+    "question": "Comment simuler un crédit sur Amen Mobile ?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-019",
+    "question": "How can I simulate a loan?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-020",
+    "question": "What information is required for a credit simulation?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-021",
+    "question": "How is borrowing capacity calculated?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-022",
+    "question": "Quels documents sont nécessaires pour un crédit immobilier ?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-023",
+    "question": "Quelles sont les étapes pour obtenir un crédit ?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-024",
+    "question": "Quels financements existent pour les entreprises ?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-025",
+    "question": "Comment protéger mon compte ?",
+    "expected_category": "security",
+    "expected_source": "security.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-026",
+    "question": "How can I protect my account?",
+    "expected_category": "security",
+    "expected_source": "security.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-027",
+    "question": "Qu'est-ce que l'authentification forte MFA ?",
+    "expected_category": "security",
+    "expected_source": "security.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-028",
+    "question": "Amen Bank peut-elle me demander mon mot de passe par téléphone ?",
+    "expected_category": "security",
+    "expected_source": "security.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-029",
+    "question": "Que faire en cas de suspicion de fraude ?",
+    "expected_category": "security",
+    "expected_source": "security.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-030",
+    "question": "Où télécharger légitimement l'application Amen Mobile ?",
+    "expected_category": "security",
+    "expected_source": "security.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-031",
+    "question": "Qu'est-ce que @mennet ?",
+    "expected_category": "digital_banking",
+    "expected_source": "services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-032",
+    "question": "Que puis-je faire avec Amen Mobile ?",
+    "expected_category": "digital_banking",
+    "expected_source": "services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-033",
+    "question": "Comment demander un chéquier en ligne ?",
+    "expected_category": "digital_banking",
+    "expected_source": "services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-034",
+    "question": "Comment suivre mes dépenses avec la gestion budgétaire ?",
+    "expected_category": "digital_banking",
+    "expected_source": "budget_management.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-035",
+    "question": "Comment contacter mon agence via la messagerie sécurisée ?",
+    "expected_category": "digital_banking",
+    "expected_source": "messaging.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-036",
+    "question": "Quel est le numéro du service client Amen Bank ?",
+    "expected_category": "contact",
+    "expected_source": "contact.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-037",
+    "question": "Quelle est l'adresse du siège d'Amen Bank ?",
+    "expected_category": "contact",
+    "expected_source": "contact.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-038",
+    "question": "Quel est l'e-mail d'Amen Bank ?",
+    "expected_category": "contact",
+    "expected_source": "contact.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-039",
+    "question": "Where is Amen Bank head office?",
+    "expected_category": "contact",
+    "expected_source": "contact.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-040",
+    "question": "Quels canaux puis-je utiliser pour contacter Amen Bank ?",
+    "expected_category": "contact",
+    "expected_source": "contact.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-041",
+    "question": "Comment trouver l'agence Amen Bank la plus proche ?",
+    "expected_category": "agencies",
+    "expected_source": "agencies.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-042",
+    "question": "Y a-t-il un espace libre-service à Sousse ?",
+    "expected_category": "agencies",
+    "expected_source": "agencies.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-043",
+    "question": "Combien d'agences compte Amen Bank ?",
+    "expected_category": "agencies",
+    "expected_source": "agencies.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-044",
+    "question": "Quel est le code SWIFT d'Amen Bank ?",
+    "expected_category": "foreign_banking",
+    "expected_source": "foreign_banking.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-045",
+    "question": "Comment effectuer un virement international ?",
+    "expected_category": "foreign_banking",
+    "expected_source": "foreign_banking.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-046",
+    "question": "Qu'est-ce qu'un crédit documentaire ?",
+    "expected_category": "foreign_banking",
+    "expected_source": "foreign_banking.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-047",
+    "question": "Puis-je consulter les cours des devises sur Amen Mobile ?",
+    "expected_category": "foreign_banking",
+    "expected_source": "foreign_banking.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-048",
+    "question": "Comment acheter une SICAV via Amen Bank ?",
+    "expected_category": "investment",
+    "expected_source": "investment_exchange.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-049",
+    "question": "Où voir les cours de la bourse sur Amennet ?",
+    "expected_category": "investment",
+    "expected_source": "investment_exchange.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-050",
+    "question": "Quelle est la mission d'Amen Bank ?",
+    "expected_category": "corporate",
+    "expected_source": "corporate_information.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-051",
+    "question": "Quand Amen Bank a-t-elle adopté son nom actuel ?",
+    "expected_category": "corporate",
+    "expected_source": "corporate_information.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-052",
+    "question": "Qu'est-ce que le pack Watani ?",
+    "expected_category": "customer_segments",
+    "expected_source": "customer_segments.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-053",
+    "question": "Quels services sont recommandés pour les jeunes clients ?",
+    "expected_category": "customer_segments",
+    "expected_source": "customer_segments.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-054",
+    "question": "Quels produits conviennent aux entreprises ?",
+    "expected_category": "customer_segments",
+    "expected_source": "customer_segments.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-055",
+    "question": "Comment suivre mes messages envoyés à mon agence ?",
+    "expected_category": "digital_banking",
+    "expected_source": "messaging.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-056",
+    "question": "La simulation de crédit est-elle contractuelle ?",
+    "expected_category": "loans",
+    "expected_source": "credit_services.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-057",
+    "question": "What digital banking services does Amen Bank offer?",
+    "expected_category": "digital_banking",
+    "expected_source": "services.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-058",
+    "question": "How can I locate the nearest Amen Bank ATM?",
+    "expected_category": "agencies",
+    "expected_source": "agencies.json",
+    "language": "en"
+  },
+  {
+    "id": "tq-059",
+    "question": "Comment analyser mon budget avec Amen Mobile ?",
+    "expected_category": "digital_banking",
+    "expected_source": "budget_management.json",
+    "language": "fr"
+  },
+  {
+    "id": "tq-060",
+    "question": "Quelles sont les valeurs d'Amen Bank ?",
+    "expected_category": "corporate",
+    "expected_source": "corporate_information.json",
+    "language": "fr"
+  }
+]

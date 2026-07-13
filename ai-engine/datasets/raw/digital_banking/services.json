@@ -1,0 +1,111 @@
+[
+  {
+    "id": "svc-001",
+    "category": "digital_banking",
+    "subcategory": "services",
+    "title": "Vue d'ensemble de @mennet",
+    "content": "@mennet est la plateforme de banque en ligne d'Amen Bank. Elle permet la consultation des comptes, le téléchargement de documents, les virements, le suivi monétique, les opérations de placements (cours SICAV et bourse), ainsi que certaines instructions corporate (CDI, virements de masse). La plateforme est sécurisée et historiquement associée à une authentification forte (notamment DIGIPASS / certificats de sécurité). Elle est accessible sur www.amennet.com.tn.",
+    "features": [
+      "Comptes et mouvements",
+      "Virements",
+      "Produits et demandes",
+      "Cours boursiers et SICAV",
+      "Services entreprises"
+    ],
+    "possible_questions": [
+      "Qu'est-ce que @mennet ?",
+      "Quels services sont disponibles sur Amennet ?",
+      "Comment accéder à la banque en ligne Amen Bank ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["amennet", "@mennet", "banque en ligne"]
+  },
+  {
+    "id": "svc-002",
+    "category": "digital_banking",
+    "subcategory": "services",
+    "title": "Vue d'ensemble d'Amen Mobile",
+    "content": "Amen Mobile est l'application mobile d'Amen Bank disponible sur Google Play et App Store. Elle offre consultation des soldes et mouvements en temps réel, virements, gestion monétique, opposition carte, recharge prépayée, déblocage international, simulateur de crédit, gestion budgétaire, cours devises/SICAV/bourse, contact agences, localisation DAB/agence, et accès biométrique. Même sans être client, certaines fonctions informatives (cours, géolocalisation, simulation) peuvent être accessibles.",
+    "features": [
+      "Banque au quotidien mobile",
+      "Monétique étendue",
+      "Simulation crédit",
+      "Géolocalisation agences/DAB",
+      "Biométrie"
+    ],
+    "possible_questions": [
+      "Que puis-je faire avec Amen Mobile ?",
+      "Amen Mobile est-elle disponible sur Android et iOS ?",
+      "Faut-il être client pour utiliser toutes les fonctions Amen Mobile ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["amen mobile", "application", "mobile banking"]
+  },
+  {
+    "id": "svc-003",
+    "category": "digital_banking",
+    "subcategory": "services",
+    "title": "Demandes de produits en ligne",
+    "content": "Via @mennet, le client peut initier des demandes liées aux produits Amen Bank : demande de chéquier, demande ou annulation de carte de paiement, demandes de crédits et levée de garantie bancaire. Ces parcours digitaux accélèrent le traitement tout en restant soumis aux contrôles métier et à la validation bancaire lorsque nécessaire.",
+    "features": [
+      "Demande de chéquier",
+      "Demande / annulation de carte",
+      "Demandes de crédits",
+      "Levée de garantie"
+    ],
+    "possible_questions": [
+      "Comment demander un chéquier en ligne ?",
+      "Puis-je demander une carte bancaire via Amennet ?",
+      "Comment initier une demande de crédit en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["demandes", "chéquier", "cartes", "crédits"]
+  },
+  {
+    "id": "svc-004",
+    "category": "digital_banking",
+    "subcategory": "services",
+    "title": "Espaces libre-service et Amen SMS",
+    "content": "Amen Bank propose des espaces libre-service (notamment La Marsa, Tunis Place du 14 Janvier, Sousse Khezama) permettant d'effectuer certaines opérations en autonomie. Amen SMS complète l'écosystème digital par des notifications et services d'information mobile. Ces canaux s'ajoutent à @mennet et Amen Mobile pour une relation multi-canal.",
+    "features": [
+      "Espaces libre-service",
+      "Opérations autonomes",
+      "Amen SMS",
+      "Complément agence / digital"
+    ],
+    "possible_questions": [
+      "Où trouver un espace libre-service Amen Bank ?",
+      "Qu'est-ce qu'Amen SMS ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["libre-service", "amen sms", "multi-canal"]
+  },
+  {
+    "id": "svc-005",
+    "category": "digital_banking",
+    "subcategory": "services",
+    "title": "Suivi des crédits et placements en cours",
+    "content": "Les clients peuvent consulter via @mennet l'état des crédits octroyés et des placements en cours. Cette transparence facilite le pilotage des engagements (échéances, encours) et des investissements. Pour toute décision de refinancement ou d'arbitrage, un conseiller d'agence reste l'interlocuteur privilégié.",
+    "features": [
+      "Consultation des crédits en cours",
+      "Consultation des placements",
+      "Aide au pilotage patrimonial et financier"
+    ],
+    "possible_questions": [
+      "Comment voir mes crédits en cours sur Amennet ?",
+      "Puis-je consulter mes placements en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["crédits", "placements", "suivi"]
+  }
+]

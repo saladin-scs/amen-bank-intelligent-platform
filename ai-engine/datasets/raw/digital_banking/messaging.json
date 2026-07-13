@@ -1,0 +1,94 @@
+[
+  {
+    "id": "msg-001",
+    "category": "digital_banking",
+    "subcategory": "messaging",
+    "title": "Messagerie sécurisée — contact agence",
+    "content": "La messagerie sécurisée de la banque digitale permet au client de contacter son agence sans exposer d'informations sensibles par e-mail non chiffré. Le client rédige un message authentifié depuis son espace bancaire. L'agence reçoit la demande dans un canal contrôlé et peut répondre dans le même fil. Ce mode de communication est recommandé pour les questions sur dossiers, documents ou opérations nécessitant un suivi nominatif.",
+    "features": [
+      "Contact authentifié de l'agence",
+      "Canal sécurisé",
+      "Suivi de conversation",
+      "Alternative à l'e-mail non sécurisé"
+    ],
+    "workflow": [
+      "Se connecter à @mennet ou Amen Mobile",
+      "Ouvrir la messagerie",
+      "Choisir le destinataire (agence)",
+      "Rédiger et envoyer le message",
+      "Suivre la réponse dans les messages reçus"
+    ],
+    "possible_questions": [
+      "Comment contacter mon agence via la messagerie sécurisée ?",
+      "Puis-je écrire à mon agence depuis Amen Mobile ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["messagerie", "agence", "contact sécurisé"]
+  },
+  {
+    "id": "msg-002",
+    "category": "digital_banking",
+    "subcategory": "messaging",
+    "title": "Contact support et relation client",
+    "content": "Pour les questions générales ou urgentes, le client peut contacter le Centre de Relation Client Amen Bank au 71 148 888, en complément de la messagerie digitale. Les demandes liées aux cartes (opposition), à l'accès digital ou aux informations produit peuvent être orientées vers le support téléphonique ou la messagerie selon le cas. Les canaux officiels restent le téléphone, la messagerie authentifiée et l'agence.",
+    "features": [
+      "Centre de relation client",
+      "Orientation selon urgence",
+      "Complément à la messagerie digitale",
+      "Support accès et monétique"
+    ],
+    "possible_questions": [
+      "Quel numéro pour contacter le support Amen Bank ?",
+      "Comment joindre le service client ?",
+      "Quelle différence entre messagerie sécurisée et appel téléphonique ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["support", "relation client", "71 148 888"]
+  },
+  {
+    "id": "msg-003",
+    "category": "digital_banking",
+    "subcategory": "messaging",
+    "title": "Messages reçus",
+    "content": "La boîte des messages reçus regroupe les réponses de l'agence, les notifications de service et les communications bancaires adressées au client dans l'espace sécurisé. Le client peut ouvrir un message, consulter son contenu et l'historique du fil. Il est recommandé de vérifier régulièrement cette boîte pour ne pas manquer une demande de document ou une information opérationnelle.",
+    "features": [
+      "Boîte de réception sécurisée",
+      "Réponses agence / banque",
+      "Historique de conversation",
+      "Notifications de suivi"
+    ],
+    "possible_questions": [
+      "Où voir les messages reçus de ma banque ?",
+      "Comment lire la réponse de mon agence ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["messages reçus", "notifications", "boîte de réception"]
+  },
+  {
+    "id": "msg-004",
+    "category": "digital_banking",
+    "subcategory": "messaging",
+    "title": "Messages envoyés",
+    "content": "La rubrique des messages envoyés conserve les demandes transmises par le client à son agence ou au support via le canal sécurisé. Elle sert de preuve de dépôt et facilite le suivi d'une demande déjà formulée (objet, date d'envoi, statut de lecture/réponse selon disponibilité). Le client peut renvoyer un complément d'information en répondant dans le fil existant lorsque la fonction est proposée.",
+    "features": [
+      "Historique des envois",
+      "Traçabilité des demandes",
+      "Suivi de dossier",
+      "Compléments de message"
+    ],
+    "possible_questions": [
+      "Où retrouver les messages que j'ai envoyés à mon agence ?",
+      "Comment suivre une demande déjà envoyée ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["messages envoyés", "suivi", "traçabilité"]
+  }
+]

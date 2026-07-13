@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bdg-001",
+    "category": "digital_banking",
+    "subcategory": "budget_management",
+    "title": "Suivi des dépenses",
+    "content": "Le module de gestion budgétaire d'Amen Mobile aide le client à suivre ses dépenses à partir des opérations enregistrées sur ses comptes. Les sorties d'argent sont consolidées afin d'identifier les postes de consommation récurrents. Cette vision favorise la maîtrise du budget personnel sans remplacer un conseil financier personnalisé.",
+    "features": [
+      "Consolidation des dépenses",
+      "Vision des sorties d'argent",
+      "Aide au contrôle budgétaire",
+      "Basé sur les mouvements du compte"
+    ],
+    "possible_questions": [
+      "Comment suivre mes dépenses avec Amen Mobile ?",
+      "Puis-je voir où part mon argent chaque mois ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["budget", "dépenses", "suivi"]
+  },
+  {
+    "id": "bdg-002",
+    "category": "digital_banking",
+    "subcategory": "budget_management",
+    "title": "Suivi des revenus",
+    "content": "Le suivi des revenus présente les flux créditeurs identifiés sur le compte (salaires, virements entrants, autres rentrées). En les confrontant aux dépenses, le client obtient une lecture simple de son équilibre budgétaire. L'outil est descriptif : il reflète les mouvements bancaires et n'anticipe pas les revenus futurs non comptabilisés.",
+    "features": [
+      "Identification des rentrées d'argent",
+      "Comparaison revenus / dépenses",
+      "Lecture de l'équilibre budgétaire"
+    ],
+    "possible_questions": [
+      "Comment voir mes revenus dans la gestion budgétaire ?",
+      "Amen Mobile compare-t-il mes revenus et mes dépenses ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["revenus", "budget", "équilibre"]
+  },
+  {
+    "id": "bdg-003",
+    "category": "digital_banking",
+    "subcategory": "budget_management",
+    "title": "Catégories budgétaires",
+    "content": "Les catégories budgétaires regroupent les opérations par nature (alimentation, transport, logement, loisirs, prélèvements, etc., selon le paramétrage de l'application). Cette classification facilite l'analyse des postes les plus consommateurs et aide à définir des priorités d'ajustement. Le client peut s'en servir comme base de réflexion avant de fixer des objectifs d'épargne.",
+    "features": [
+      "Classification des opérations",
+      "Postes de dépenses",
+      "Lecture thématique du budget",
+      "Support à l'épargne"
+    ],
+    "possible_questions": [
+      "Quelles catégories de budget sont disponibles ?",
+      "Comment sont classées mes dépenses dans Amen Mobile ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["catégories", "classification", "budget"]
+  },
+  {
+    "id": "bdg-004",
+    "category": "digital_banking",
+    "subcategory": "budget_management",
+    "title": "Analyse budgétaire",
+    "content": "L'analyse budgétaire synthétise dépenses, revenus et répartition par catégories pour fournir une vue d'ensemble sur une période. Elle aide à détecter les déséquilibres, à préparer une épargne régulière ou à anticiper une capacité de remboursement avant une simulation de crédit. Les résultats restent indicatifs et dépendent de la qualité de catégorisation des mouvements.",
+    "features": [
+      "Synthèse sur une période",
+      "Répartition par catégories",
+      "Aide à la décision d'épargne ou de crédit",
+      "Indicateurs de déséquilibre"
+    ],
+    "possible_questions": [
+      "Comment analyser mon budget avec Amen Bank ?",
+      "La gestion budgétaire peut-elle m'aider avant un crédit ?",
+      "Puis-je voir la répartition de mes dépenses ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["analyse", "synthèse", "capacité", "épargne"]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ctc-001",
+    "category": "contact",
+    "subcategory": "headquarters",
+    "title": "Siège social Amen Bank",
+    "content": "Le siège social d'Amen Bank est situé Avenue Mohamed V, 1002 Tunis, Tunisie. Il constitue l'adresse officielle pour les informations institutionnelles et les relations avec les marchés (actionnaires, obligations, régulateurs). Les clients pour leurs opérations courantes sont orientés vers leur agence, le centre de relation client ou les canaux digitaux.",
+    "address": "Avenue Mohamed V, 1002 Tunis, Tunisie",
+    "phone": "+216 71 148 000",
+    "fax": "+216 71 833 517",
+    "email": "amenbank@amenbank.com.tn",
+    "website": "https://www.amenbank.com.tn",
+    "banking_website": "https://www.amennet.com.tn",
+    "possible_questions": [
+      "Quelle est l'adresse du siège d'Amen Bank ?",
+      "Comment contacter le siège Amen Bank ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "contact_info",
+    "tags": ["siège", "Tunis", "adresse", "institutionnel"]
+  },
+  {
+    "id": "ctc-002",
+    "category": "contact",
+    "subcategory": "customer_service",
+    "title": "Centre de Relation Client",
+    "content": "Le Centre de Relation Client Amen Bank est joignable au 71 148 888 pour les informations sur les produits digitaux, Amen Mobile, et l'assistance client. Ce canal complète les agences et la messagerie sécurisée. Pour les urgences monétiques (opposition carte), contacter rapidement le support puis confirmer les démarches de remplacement.",
+    "phone": "+216 71 148 888",
+    "channels": [
+      "Téléphone Centre de Relation Client",
+      "Agence bancaire",
+      "Messagerie sécurisée @mennet / Amen Mobile",
+      "E-mail institutionnel selon demande"
+    ],
+    "possible_questions": [
+      "Quel est le numéro du service client Amen Bank ?",
+      "Comment contacter le centre de relation client ?",
+      "Quel numéro pour Amen Mobile ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "contact_info",
+    "tags": ["relation client", "support", "71 148 888"]
+  },
+  {
+    "id": "ctc-003",
+    "category": "contact",
+    "subcategory": "email",
+    "title": "Contacts e-mail",
+    "content": "L'adresse e-mail institutionnelle publiée est amenbank@amenbank.com.tn. Pour les sujets liés à l'application mobile, une adresse amenmobile@amenbank.tn est également référencée sur les stores. Les demandes contenant des données sensibles (numéro de compte complet, OTP, mot de passe) ne doivent pas être envoyées par e-mail non sécurisé ; privilégier la messagerie authentifiée ou l'agence.",
+    "emails": [
+      "amenbank@amenbank.com.tn",
+      "amenmobile@amenbank.tn"
+    ],
+    "possible_questions": [
+      "Quel est l'e-mail d'Amen Bank ?",
+      "Puis-je envoyer mon numéro de compte par e-mail ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "contact_info",
+    "tags": ["email", "contact", "confidentialité"]
+  },
+  {
+    "id": "ctc-004",
+    "category": "contact",
+    "subcategory": "phone",
+    "title": "Numéros de téléphone utiles",
+    "content": "Numéros publics de référence : standard / siège +216 71 148 000 ; Centre de Relation Client +216 71 148 888 ; fax siège +216 71 833 517. Ces numéros sont destinés à l'information et à l'assistance. Vérifiez toujours que vous avez composé un numéro officiel publié par la banque.",
+    "phones": [
+      {"label": "Siège / standard", "number": "+216 71 148 000"},
+      {"label": "Centre de Relation Client", "number": "+216 71 148 888"},
+      {"label": "Fax siège", "number": "+216 71 833 517"}
+    ],
+    "possible_questions": [
+      "Quels sont les numéros de téléphone d'Amen Bank ?",
+      "Comment appeler Amen Bank ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "fr",
+    "document_type": "contact_info",
+    "tags": ["téléphone", "standard", "fax"]
+  },
+  {
+    "id": "ctc-005",
+    "category": "contact",
+    "subcategory": "support_channels",
+    "title": "Canaux de support disponibles",
+    "content": "Amen Bank offre plusieurs canaux de support : (1) agences du réseau national ; (2) Centre de Relation Client téléphonique ; (3) messagerie sécurisée digitale ; (4) e-mail institutionnel pour demandes non sensibles ; (5) sites officiels et application mobile pour self-care. Le choix du canal dépend de l'urgence et de la sensibilité des données. Les opérations critiques (opposition, fraude) doivent être traitées en priorité via téléphone et application.",
+    "channels": [
+      "Agence",
+      "Téléphone CRC",
+      "Messagerie sécurisée",
+      "E-mail institutionnel",
+      "Amennet / Amen Mobile self-care"
+    ],
+    "possible_questions": [
+      "Quels sont les canaux pour contacter Amen Bank ?",
+      "Quel canal utiliser en cas d'urgence carte ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "contact_info",
+    "tags": ["support", "canaux", "urgence", "self-care"]
+  },
+  {
+    "id": "ctc-006",
+    "category": "contact",
+    "subcategory": "headquarters",
+    "title": "Amen Bank headquarters and websites",
+    "content": "Amen Bank head office is located on Avenue Mohamed V, 1002 Tunis. Corporate website: www.amenbank.com.tn. Online banking website: www.amennet.com.tn. Main switchboard: +216 71 148 000. Customer Relations Center: +216 71 148 888. Email: amenbank@amenbank.com.tn.",
+    "address": "Avenue Mohamed V, 1002 Tunis, Tunisia",
+    "phone": "+216 71 148 000",
+    "email": "amenbank@amenbank.com.tn",
+    "website": "https://www.amenbank.com.tn",
+    "banking_website": "https://www.amennet.com.tn",
+    "possible_questions": [
+      "Where is Amen Bank head office?",
+      "What is Amen Bank customer service number?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+    "language": "en",
+    "document_type": "contact_info",
+    "tags": ["head office", "contact", "websites"]
+  }
+]

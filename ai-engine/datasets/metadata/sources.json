@@ -1,0 +1,487 @@
+{
+  "dataset_name": "Amen Bank Intelligent Digital Banking — Knowledge Base",
+  "version": "1.0.0",
+  "created_at": "2026-07-13T23:29:11.028601+00:00",
+  "crisp_dm_phase": "Data Preparation",
+  "purpose": [
+    "RAG chatbot",
+    "Semantic search",
+    "Banking assistant",
+    "Product recommendation",
+    "Document question answering",
+    "Multilingual AI assistant"
+  ],
+  "privacy_policy": {
+    "stores_customer_pii": false,
+    "stores_account_numbers": false,
+    "stores_balances": false,
+    "stores_transaction_amounts": false,
+    "stores_login_information": false,
+    "content_scope": "Generic banking functionalities and public corporate services only"
+  },
+  "chunking": {
+    "chunk_size_tokens": 500,
+    "overlap_tokens": 100,
+    "tokenizer": "approximate_whitespace_french_english"
+  },
+  "statistics": {
+    "raw_files": 16,
+    "documents": 100,
+    "chunks": 100,
+    "categories": {
+      "agencies": 7,
+      "contact": 6,
+      "corporate": 12,
+      "digital_banking": 36,
+      "faq": 12,
+      "financing": 6,
+      "investment": 5,
+      "customer_segments": 6,
+      "products": 4,
+      "security": 6
+    },
+    "languages": {
+      "fr": 93,
+      "en": 7
+    },
+    "document_types": {
+      "agency": 7,
+      "contact_info": 6,
+      "corporate_profile": 2,
+      "corporate_history": 1,
+      "corporate_vision": 1,
+      "corporate_mission": 2,
+      "corporate_strategy": 1,
+      "corporate_values": 1,
+      "corporate_international": 1,
+      "corporate_partnerships": 1,
+      "corporate_identity": 1,
+      "corporate_network": 1,
+      "digital_service": 34,
+      "trade_finance": 2,
+      "faq": 12,
+      "financing_product": 3,
+      "financing_service": 2,
+      "financing_education": 1,
+      "investment_service": 5,
+      "customer_segment": 6,
+      "product": 4,
+      "security_guidance": 6
+    },
+    "avg_tokens_per_chunk": 137.07
+  },
+  "raw_files": [
+    "raw/agencies/agencies.json",
+    "raw/contact/contact.json",
+    "raw/corporate/corporate_information.json",
+    "raw/digital_banking/accounts.json",
+    "raw/digital_banking/budget_management.json",
+    "raw/digital_banking/cards_monetique.json",
+    "raw/digital_banking/foreign_banking.json",
+    "raw/digital_banking/messaging.json",
+    "raw/digital_banking/services.json",
+    "raw/digital_banking/transfers.json",
+    "raw/faq/faq.json",
+    "raw/financing/credit_services.json",
+    "raw/investment/investment_exchange.json",
+    "raw/products/customer_segments.json",
+    "raw/products/products_overview.json",
+    "raw/security/security.json"
+  ],
+  "sources": [
+    {
+      "source": "accounts.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-011"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "agencies.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-010"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "cards_monetique.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-004"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "contact.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-007"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "credit_services.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-005"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "customer_segments.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-012"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "foreign_banking.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-009"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://fr.wikipedia.org/wiki/Amen_Bank",
+      "document_count": 4,
+      "categories": [
+        "corporate",
+        "customer_segments",
+        "products"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "corp-002",
+        "seg-003",
+        "prd-001",
+        "prd-002"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+      "document_count": 13,
+      "categories": [
+        "digital_banking",
+        "faq",
+        "investment"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "document_ids": [
+        "acc-002",
+        "acc-003",
+        "bdg-001",
+        "bdg-002",
+        "bdg-003",
+        "bdg-004",
+        "card-001",
+        "card-002",
+        "card-003",
+        "card-004",
+        "faq-002",
+        "inv-001",
+        "inv-005"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://themoney.tn/wiki/amen-bank/",
+      "document_count": 2,
+      "categories": [
+        "corporate"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "corp-007",
+        "corp-008"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://www.amenbank.com.tn",
+      "document_count": 23,
+      "categories": [
+        "contact",
+        "customer_segments",
+        "digital_banking",
+        "financing",
+        "investment",
+        "products",
+        "security"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "document_ids": [
+        "ctc-005",
+        "card-005",
+        "fx-005",
+        "msg-001",
+        "msg-003",
+        "msg-004",
+        "trf-003",
+        "trf-005",
+        "trf-006",
+        "fin-001",
+        "fin-002",
+        "fin-005",
+        "fin-006",
+        "inv-004",
+        "seg-001",
+        "seg-002",
+        "seg-004",
+        "seg-006",
+        "prd-004",
+        "sec-003",
+        "sec-004",
+        "sec-005",
+        "sec-006"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+      "document_count": 13,
+      "categories": [
+        "customer_segments",
+        "digital_banking",
+        "financing",
+        "investment"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "acc-004",
+        "acc-006",
+        "fx-001",
+        "fx-002",
+        "fx-003",
+        "svc-003",
+        "svc-005",
+        "trf-001",
+        "trf-002",
+        "trf-004",
+        "fin-004",
+        "inv-002",
+        "seg-005"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://www.amenbank.com.tn/en/notre-identite.html",
+      "document_count": 16,
+      "categories": [
+        "agencies",
+        "contact",
+        "corporate"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "document_ids": [
+        "agy-001",
+        "agy-005",
+        "agy-007",
+        "ctc-001",
+        "ctc-003",
+        "ctc-004",
+        "ctc-006",
+        "corp-001",
+        "corp-003",
+        "corp-004",
+        "corp-005",
+        "corp-006",
+        "corp-009",
+        "corp-010",
+        "corp-011",
+        "corp-012"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://www.amenbank.com.tn/en/particular/digital-bank-42-176-@mennet-.html",
+      "document_count": 11,
+      "categories": [
+        "agencies",
+        "digital_banking",
+        "faq",
+        "products",
+        "security"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "agy-002",
+        "agy-003",
+        "agy-004",
+        "acc-001",
+        "acc-005",
+        "svc-001",
+        "svc-004",
+        "faq-001",
+        "prd-003",
+        "sec-001",
+        "sec-002"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+      "document_count": 8,
+      "categories": [
+        "agencies",
+        "contact",
+        "digital_banking",
+        "financing",
+        "investment"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "agy-006",
+        "ctc-002",
+        "card-006",
+        "fx-004",
+        "msg-002",
+        "svc-002",
+        "fin-003",
+        "inv-003"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "investment_exchange.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-008"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "security.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-006"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    },
+    {
+      "source": "transfers.json",
+      "document_count": 1,
+      "categories": [
+        "faq"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "document_ids": [
+        "faq-003"
+      ],
+      "license_note": "Public corporate information for educational RAG use. No customer PII.",
+      "privacy_note": "Excludes account numbers, balances, transactions, and login credentials."
+    }
+  ],
+  "downstream_targets": [
+    "embedding generation",
+    "ChromaDB indexing",
+    "semantic retrieval",
+    "RAG answer generation",
+    "recommendation feature store (segments/products)"
+  ],
+  "pipeline": {
+    "raw_loaded": 100,
+    "rejected_privacy_or_empty": 0,
+    "after_dedup": 100,
+    "documents_written": 100,
+    "chunks_written": 100,
+    "chunk_size": 500,
+    "overlap": 100
+  }
+}

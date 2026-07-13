@@ -1,0 +1,179 @@
+[
+  {
+    "id": "trf-001",
+    "category": "digital_banking",
+    "subcategory": "transfers",
+    "title": "Virement de compte à compte",
+    "content": "Le virement de compte à compte permet de déplacer des fonds entre deux comptes Amen Bank appartenant au même client (par exemple compte courant vers compte d'épargne). L'opération est disponible sur @mennet et Amen Mobile. Elle est adaptée aux réallocations internes de trésorerie et ne nécessite pas l'ajout d'un bénéficiaire externe.",
+    "features": [
+      "Transfert interne multi-comptes",
+      "Exécution en temps réel selon disponibilité canal",
+      "Choix du compte débiteur et créditeur",
+      "Saisie du motif de paiement"
+    ],
+    "workflow": [
+      "Choisir le compte à débiter",
+      "Choisir le compte bénéficiaire interne",
+      "Saisir le montant",
+      "Saisir le motif de paiement",
+      "Choisir la date d'exécution",
+      "Valider l'opération (authentification forte si requise)"
+    ],
+    "possible_questions": [
+      "Comment faire un virement entre mes comptes Amen Bank ?",
+      "Puis-je transférer de mon compte courant vers mon épargne en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["virement", "compte à compte", "interne"]
+  },
+  {
+    "id": "trf-002",
+    "category": "digital_banking",
+    "subcategory": "transfers",
+    "title": "Virement vers un bénéficiaire",
+    "content": "Le virement vers un bénéficiaire permet d'envoyer des fonds vers un compte tenu chez Amen Bank ou dans une autre banque, après enregistrement du bénéficiaire. Le client sélectionne le compte à débiter, le bénéficiaire, le montant, le motif et la date d'exécution, puis valide. Cette fonctionnalité couvre les paiements domestiques usuels (salaires familiaux, fournisseurs, loyers, etc.).",
+    "features": [
+      "Gestion des bénéficiaires",
+      "Virement national Amen Bank et autres banques",
+      "Motif de paiement",
+      "Validation sécurisée"
+    ],
+    "workflow": [
+      "Choisir le compte à débiter",
+      "Choisir le bénéficiaire (ou l'ajouter au préalable)",
+      "Saisir le montant",
+      "Saisir le motif de paiement",
+      "Choisir la date d'exécution",
+      "Valider le virement"
+    ],
+    "possible_questions": [
+      "Comment effectuer un virement vers un bénéficiaire ?",
+      "Comment ajouter un nouveau bénéficiaire de virement ?",
+      "Quelles informations sont nécessaires pour un virement ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["virement", "bénéficiaire", "national"]
+  },
+  {
+    "id": "trf-003",
+    "category": "digital_banking",
+    "subcategory": "transfers",
+    "title": "Virement permanent",
+    "content": "Le virement permanent (ou virement récurrent) permet de programmer un paiement régulier vers un bénéficiaire à une périodicité définie (mensuelle, etc.). Il est utile pour les loyers, crédits internes de gestion, ou paiements récurrents. Le client configure le compte débiteur, le bénéficiaire, le montant, le motif, la date de début et la périodicité, puis valide. Il peut ensuite consulter et gérer les ordres permanents actifs.",
+    "features": [
+      "Programmation récurrente",
+      "Choix de périodicité",
+      "Gestion des ordres permanents",
+      "Suspension ou modification selon règles produit"
+    ],
+    "workflow": [
+      "Choisir le compte à débiter",
+      "Choisir le bénéficiaire",
+      "Saisir le montant",
+      "Saisir le motif de paiement",
+      "Définir la périodicité et la date d'exécution",
+      "Valider l'ordre permanent"
+    ],
+    "possible_questions": [
+      "Comment mettre en place un virement permanent ?",
+      "Puis-je programmer un virement automatique chaque mois ?",
+      "Comment modifier ou arrêter un virement permanent ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["virement permanent", "récurrent", "programmation"]
+  },
+  {
+    "id": "trf-004",
+    "category": "digital_banking",
+    "subcategory": "transfers",
+    "title": "Virement groupé (bulk transfer)",
+    "content": "Le virement groupé permet d'exécuter plusieurs paiements en une seule instruction, typiquement pour les salaires ou les règlements fournisseurs. Sur @mennet, les clients professionnels et entreprises peuvent préparer une liste de bénéficiaires et de montants, contrôler le total, puis valider. Cette fonctionnalité réduit les tâches répétitives et améliore le cash management.",
+    "features": [
+      "Paiements multiples en une opération",
+      "Usage salaires / fournisseurs",
+      "Contrôle du montant total",
+      "Suivi d'exécution des virements de masse"
+    ],
+    "workflow": [
+      "Choisir le compte à débiter",
+      "Importer ou saisir la liste des bénéficiaires et montants",
+      "Vérifier le récapitulatif",
+      "Saisir le motif global ou par ligne selon écran",
+      "Choisir la date d'exécution",
+      "Valider le virement groupé"
+    ],
+    "possible_questions": [
+      "Comment faire un virement de masse ?",
+      "Puis-je payer plusieurs fournisseurs en une seule fois ?",
+      "Le virement groupé est-il disponible pour les entreprises ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["virement groupé", "bulk", "salaires", "entreprises"]
+  },
+  {
+    "id": "trf-005",
+    "category": "digital_banking",
+    "subcategory": "transfers",
+    "title": "Historique des virements",
+    "content": "L'historique des virements permet de consulter les ordres émis : date, bénéficiaire, montant, statut (exécuté, en attente, rejeté) et motif. Il facilite le suivi post-opération et le support en cas de question sur un paiement. Les utilisateurs peuvent rechercher un virement par période ou bénéficiaire selon les filtres disponibles.",
+    "features": [
+      "Liste des virements émis",
+      "Statuts d'exécution",
+      "Recherche et filtres",
+      "Détail d'un ordre"
+    ],
+    "workflow": [
+      "Accéder au module Virements",
+      "Ouvrir l'historique",
+      "Filtrer par période ou statut",
+      "Consulter le détail d'un virement"
+    ],
+    "possible_questions": [
+      "Comment consulter l'historique de mes virements ?",
+      "Comment savoir si mon virement a bien été exécuté ?",
+      "Où retrouver un virement en attente ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["historique", "statut", "suivi virement"]
+  },
+  {
+    "id": "trf-006",
+    "category": "digital_banking",
+    "subcategory": "transfers",
+    "title": "Workflow standard d'un virement",
+    "content": "Quel que soit le type de virement (interne, bénéficiaire, permanent ou groupé), le parcours métier standard suit six étapes : (1) choisir le compte à débiter ; (2) choisir le bénéficiaire ; (3) saisir le montant ; (4) saisir le motif de paiement ; (5) choisir la date d'exécution ; (6) valider. Avant validation, le système affiche un récapitulatif. Une authentification forte (OTP, DIGIPASS ou biométrie selon canal) peut être exigée. Après validation, l'ordre apparaît dans l'historique avec son statut.",
+    "features": [
+      "Parcours guidé en 6 étapes",
+      "Récapitulatif avant validation",
+      "Authentification forte",
+      "Confirmation et suivi"
+    ],
+    "workflow": [
+      "Choisir le compte à débiter",
+      "Choisir le bénéficiaire",
+      "Saisir le montant",
+      "Saisir le motif de paiement",
+      "Choisir la date d'exécution",
+      "Valider"
+    ],
+    "possible_questions": [
+      "Quelles sont les étapes pour faire un virement ?",
+      "Que se passe-t-il après la validation d'un virement ?",
+      "Faut-il une authentification forte pour virer de l'argent ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["workflow", "étapes", "validation", "sécurité"]
+  }
+]

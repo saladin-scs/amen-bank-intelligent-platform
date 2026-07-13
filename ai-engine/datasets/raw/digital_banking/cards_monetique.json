@@ -1,0 +1,152 @@
+[
+  {
+    "id": "card-001",
+    "category": "digital_banking",
+    "subcategory": "cards_monetique",
+    "title": "Gestion des cartes bancaires",
+    "content": "La gestion des cartes sur Amen Mobile et @mennet permet de consulter les cartes rattachées au compte, de suivre les plafonds, et de visualiser les encours d'achat et de retrait. Le client peut également initier des demandes de carte ou d'annulation selon les parcours produit. Ces services monétiques renforcent l'autonomie digitale tout en maintenant un contrôle de sécurité sur les moyens de paiement.",
+    "features": [
+      "Liste des cartes du client",
+      "Consultation des plafonds",
+      "Suivi des encours d'achat et de retrait",
+      "Demande de carte / annulation via canaux digitaux"
+    ],
+    "possible_questions": [
+      "Comment gérer ma carte bancaire en ligne ?",
+      "Où voir les plafonds de ma carte Amen Bank ?",
+      "Comment consulter les encours de ma carte ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["cartes", "plafonds", "encours", "monétique"]
+  },
+  {
+    "id": "card-002",
+    "category": "digital_banking",
+    "subcategory": "cards_monetique",
+    "title": "Recharge de carte prépayée",
+    "content": "La recharge de carte prépayée permet d'alimenter une carte prépayée Amen Bank depuis un compte éligible via Amen Mobile. Le client sélectionne la carte, le compte source, le montant de recharge, puis valide l'opération. Ce service est adapté aux dépenses contrôlées, aux usages jeunes ou aux besoins ponctuels sans dépasser le solde rechargé.",
+    "features": [
+      "Recharge depuis Amen Mobile",
+      "Sélection carte et compte source",
+      "Montant paramétrable dans les limites produit",
+      "Confirmation sécurisée"
+    ],
+    "workflow": [
+      "Ouvrir le module Cartes",
+      "Sélectionner la carte prépayée",
+      "Choisir Recharge",
+      "Indiquer le montant et le compte source",
+      "Valider"
+    ],
+    "possible_questions": [
+      "Comment recharger ma carte prépayée Amen Bank ?",
+      "Puis-je recharger ma carte prépayée depuis Amen Mobile ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["carte prépayée", "recharge", "monétique"]
+  },
+  {
+    "id": "card-003",
+    "category": "digital_banking",
+    "subcategory": "cards_monetique",
+    "title": "Déblocage de carte à l'international",
+    "content": "Le déblocage international active l'usage de la carte hors du territoire national pour les paiements et retraits à l'étranger. Depuis Amen Mobile, le client peut demander le déblocage selon la durée ou l'option prévue par le produit carte. Cette fonctionnalité limite le risque de fraude en n'autorisant l'usage international que lorsque le client voyage réellement.",
+    "features": [
+      "Activation usage international",
+      "Pilotage depuis Amen Mobile",
+      "Réduction du risque de fraude géographique",
+      "Contrôle client de l'option voyage"
+    ],
+    "workflow": [
+      "Accéder à la carte concernée",
+      "Choisir l'option déblocage international",
+      "Confirmer la période ou l'activation",
+      "Valider l'opération"
+    ],
+    "possible_questions": [
+      "Comment débloquer ma carte pour l'étranger ?",
+      "Puis-je activer ma carte à l'international depuis Amen Mobile ?",
+      "Que faire avant un voyage pour utiliser ma carte Amen Bank ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["international", "déblocage", "voyage", "carte"]
+  },
+  {
+    "id": "card-004",
+    "category": "digital_banking",
+    "subcategory": "cards_monetique",
+    "title": "Opposition sur carte",
+    "content": "L'opposition sur carte permet de bloquer immédiatement une carte en cas de perte, vol ou suspicion de fraude. Le service est disponible via Amen Mobile et les canaux de relation client. Une fois l'opposition confirmée, les paiements et retraits sont bloqués. Le client doit ensuite suivre le processus de remplacement de carte auprès de la banque. En urgence, il est recommandé de combiner opposition digitale et contact du centre de relation client.",
+    "features": [
+      "Blocage immédiat de la carte",
+      "Protection contre usage frauduleux",
+      "Disponibilité mobile",
+      "Parcours de remplacement post-opposition"
+    ],
+    "workflow": [
+      "Ouvrir Amen Mobile ou contacter le support",
+      "Sélectionner la carte concernée",
+      "Activer l'opposition",
+      "Confirmer le motif (perte, vol, fraude)",
+      "Suivre la demande de nouvelle carte"
+    ],
+    "possible_questions": [
+      "Comment faire opposition sur ma carte Amen Bank ?",
+      "Que faire en cas de perte ou vol de carte ?",
+      "Puis-je bloquer ma carte depuis l'application mobile ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["opposition", "perte", "vol", "fraude", "blocage"]
+  },
+  {
+    "id": "card-005",
+    "category": "digital_banking",
+    "subcategory": "cards_monetique",
+    "title": "Consultation TPE",
+    "content": "La consultation TPE s'adresse aux professionnels et commerçants équipés de terminaux de paiement électronique. Elle permet de suivre les transactions d'encaissement liées au TPE et d'avoir une vision des opérations monétiques professionnelles. Ce service complète le compte professionnel et aide au suivi du chiffre d'affaires encaissé par carte.",
+    "features": [
+      "Suivi des opérations TPE",
+      "Vision des encaissements carte",
+      "Aide à la réconciliation commerçant",
+      "Accès digital pour professionnels"
+    ],
+    "possible_questions": [
+      "Comment consulter mes opérations TPE ?",
+      "Puis-je suivre les paiements reçus sur mon terminal ?",
+      "Où voir les encaissements carte de mon commerce ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["TPE", "commerçants", "encaissement", "professionnels"]
+  },
+  {
+    "id": "card-006",
+    "category": "digital_banking",
+    "subcategory": "cards_monetique",
+    "title": "Retrait sans carte",
+    "content": "Amen Mobile permet d'initier et d'effectuer des retraits sans carte physique, selon les conditions et disponibles du service. Le client prépare l'opération dans l'application puis finalise le retrait au DAB compatible. Cette option apporte de la souplesse lorsqu'un porteur n'a pas sa carte avec lui, tout en restant soumis aux contrôles de sécurité et plafonds applicables.",
+    "features": [
+      "Initiation mobile du retrait",
+      "Retrait au DAB sans carte physique",
+      "Contrôles de sécurité et plafonds",
+      "Flexibilité d'accès aux espèces"
+    ],
+    "possible_questions": [
+      "Comment retirer de l'argent sans carte avec Amen Mobile ?",
+      "Le retrait sans carte est-il disponible sur tous les DAB ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["retrait sans carte", "DAB", "amen mobile"]
+  }
+]

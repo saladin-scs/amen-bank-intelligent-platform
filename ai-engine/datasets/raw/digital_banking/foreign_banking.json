@@ -1,0 +1,119 @@
+[
+  {
+    "id": "fx-001",
+    "category": "digital_banking",
+    "subcategory": "foreign_banking",
+    "title": "Virements internationaux",
+    "content": "Les virements à l'étranger permettent d'émettre des paiements internationaux depuis les canaux digitaux Amen Bank, notamment @mennet. Le client renseigne les coordonnées bancaires internationales du bénéficiaire (IBAN/BIC selon corridor), le montant, la devise, le motif et les instructions de frais. Les opérations sont soumises à la réglementation des changes et aux contrôles de conformité. Amen Bank communique via le code SWIFT CFCTTNTT.",
+    "features": [
+      "Émission de virements internationaux",
+      "Saisie des références bancaires étrangères",
+      "Gestion devise / dinar selon règles applicables",
+      "Suivi des ordres internationaux"
+    ],
+    "workflow": [
+      "Choisir le compte à débiter",
+      "Saisir ou sélectionner le bénéficiaire international",
+      "Indiquer montant et devise",
+      "Renseigner le motif économique",
+      "Choisir la date d'exécution",
+      "Valider sous authentification forte"
+    ],
+    "possible_questions": [
+      "Comment effectuer un virement à l'étranger ?",
+      "Quel est le code SWIFT d'Amen Bank ?",
+      "Quelles informations sont nécessaires pour un virement international ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["virement international", "SWIFT", "CFCTTNTT", "change"]
+  },
+  {
+    "id": "fx-002",
+    "category": "digital_banking",
+    "subcategory": "foreign_banking",
+    "title": "Crédit documentaire (Letter of Credit)",
+    "content": "Le crédit documentaire (CDI / Documentary Credit) est un instrument de commerce extérieur par lequel la banque s'engage, sous conditions documentaires, à payer un vendeur pour le compte d'un acheteur importateur. Sur @mennet, les entreprises peuvent instruire et suivre des demandes de crédit documentaire à l'import. Cet instrument réduit le risque de non-paiement et de non-livraison dans les échanges internationaux.",
+    "credit_type": "Crédit documentaire import",
+    "features": [
+      "Instruction de CDI à l'import via @mennet",
+      "Suivi de la demande",
+      "Sécurisation du commerce extérieur",
+      "Cadre documentaire standardisé"
+    ],
+    "possible_questions": [
+      "Qu'est-ce qu'un crédit documentaire ?",
+      "Comment demander un crédit documentaire à l'import ?",
+      "Puis-je suivre mon CDI sur Amennet ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "trade_finance",
+    "tags": ["crédit documentaire", "CDI", "letter of credit", "import"]
+  },
+  {
+    "id": "fx-003",
+    "category": "digital_banking",
+    "subcategory": "foreign_banking",
+    "title": "Lettres de crédit et garanties liées au commerce extérieur",
+    "content": "Outre le crédit documentaire, Amen Bank accompagne les entreprises via des instruments de trade finance et de garanties bancaires. Les demandes de crédits et de levée de garantie peuvent être initiées ou suivies via les parcours digitaux corporate. Ces services sécurisent les engagements commerciaux, adjudicatifs ou contractuels nécessitant une caution bancaire.",
+    "features": [
+      "Demandes de crédits",
+      "Levée / suivi de garanties bancaires",
+      "Accompagnement commerce extérieur",
+      "Parcours digital entreprises"
+    ],
+    "possible_questions": [
+      "Comment demander une garantie bancaire ?",
+      "Amen Bank propose-t-elle des lettres de crédit ?",
+      "Comment suivre une demande de garantie en ligne ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "trade_finance",
+    "tags": ["lettres de crédit", "garanties", "trade finance"]
+  },
+  {
+    "id": "fx-004",
+    "category": "digital_banking",
+    "subcategory": "foreign_banking",
+    "title": "Consultation des cours de change",
+    "content": "Amen Mobile et les canaux digitaux permettent de consulter les cours des principales devises. Un convertisseur de devises est également disponible pour estimer un montant en dinars ou en devise. Ces outils sont informatifs et ne constituent pas une confirmation définitive du cours appliqué au moment d'une opération réelle, lequel dépend des conditions bancaires et réglementaires en vigueur.",
+    "features": [
+      "Cours des devises principales",
+      "Convertisseur de devises",
+      "Accès public/client selon canal",
+      "Aide à la préparation d'opérations internationale"
+    ],
+    "possible_questions": [
+      "Où consulter les cours des devises Amen Bank ?",
+      "Y a-t-il un convertisseur de devises sur Amen Mobile ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["change", "devises", "convertisseur"]
+  },
+  {
+    "id": "fx-005",
+    "category": "digital_banking",
+    "subcategory": "foreign_banking",
+    "title": "Opérations bancaires internationales — vue d'ensemble",
+    "content": "Les opérations de banque à l'étranger d'Amen Bank couvrent les virements internationaux, le crédit documentaire, les lettres de crédit / garanties, les services de change et l'accompagnement des clients TRE. L'objectif est de sécuriser les flux transfrontaliers pour les particuliers non-résidents et les entreprises import/export. Toute opération demeure conditionnée à l'identité du client, à la conformité KYC/AML et à la réglementation des changes tunisienne.",
+    "features": [
+      "Virements internationaux",
+      "Trade finance",
+      "Change",
+      "Accompagnement TRE et entreprises"
+    ],
+    "possible_questions": [
+      "Quels services internationaux propose Amen Bank ?",
+      "Comment Amen Bank accompagne-t-elle le commerce extérieur ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "digital_service",
+    "tags": ["foreign banking", "international", "conformité"]
+  }
+]

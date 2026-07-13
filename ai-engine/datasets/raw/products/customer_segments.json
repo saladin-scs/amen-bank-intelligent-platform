@@ -1,0 +1,225 @@
+[
+  {
+    "id": "seg-001",
+    "category": "customer_segments",
+    "segment_code": "particuliers",
+    "title": "Segment Particuliers",
+    "description": "Le segment Particuliers regroupe les clients personnes physiques utilisant Amen Bank pour leurs besoins bancaires du quotidien : comptes courants, épargne, moyens de paiement, crédits immobiliers ou à la consommation, et gestion budgétaire. Ces clients recherchent simplicité, sécurité, disponibilité 24/7 et un accompagnement personnalisé en agence ou via les canaux digitaux.",
+    "needs": [
+      "Consultation de solde et d'historique en temps réel",
+      "Virements nationaux sécurisés",
+      "Cartes de paiement et retraits",
+      "Épargne et placement prudents",
+      "Crédits habitat et consommation",
+      "Suivi budgétaire et alertes",
+      "Accès multi-canal (agence, Amennet, Amen Mobile)"
+    ],
+    "recommended_services": [
+      "Compte courant particulier",
+      "@mennet banking",
+      "Amen Mobile",
+      "Gestion budgétaire",
+      "Messagerie sécurisée",
+      "Simulation de crédit",
+      "Services monétiques"
+    ],
+    "possible_products": [
+      "Compte chèques / compte courant",
+      "Carte de débit / carte de crédit",
+      "Carte prépayée",
+      "Crédit immobilier",
+      "Crédit à la consommation",
+      "Livrets d'épargne",
+      "SICAV grand public",
+      "Pack de services bancaires"
+    ],
+    "language": "fr",
+    "source": "https://www.amenbank.com.tn",
+    "document_type": "customer_segment",
+    "tags": ["particuliers", "retail", "personnes physiques"]
+  },
+  {
+    "id": "seg-002",
+    "category": "customer_segments",
+    "segment_code": "jeunes",
+    "title": "Segment Jeunes",
+    "description": "Le segment Jeunes concerne les étudiants, jeunes actifs et primo-bancarisés. Ils privilégient le digital, les expériences mobiles, les frais maîtrisés et des produits d'entrée simples. Amen Bank les accompagne via des offres adaptées, l'application Amen Mobile, la bancarisation numérique et des outils d'éducation financière de base (budget, simulation).",
+    "needs": [
+      "Ouverture de compte simplifiée",
+      "Banque mobile prioritaire",
+      "Cartes adaptées aux petits budgets",
+      "Transferts rapides entre comptes",
+      "Suivi des dépenses",
+      "Premiers produits d'épargne",
+      "Accès à l'information produit claire"
+    ],
+    "recommended_services": [
+      "Amen Mobile",
+      "@mennet",
+      "Gestion budgétaire",
+      "Carte prépayée ou carte jeune",
+      "Consultation temps réel",
+      "Convertisseur de devises",
+      "Localisation d'agences et DAB"
+    ],
+    "possible_products": [
+      "Compte jeune / étudiant",
+      "Carte prépayée",
+      "Carte de paiement",
+      "Épargne de précaution",
+      "Crédit étudiants ou équipements (selon éligibilité)",
+      "Pack digital"
+    ],
+    "language": "fr",
+    "source": "https://www.amenbank.com.tn",
+    "document_type": "customer_segment",
+    "tags": ["jeunes", "étudiants", "primo-bancarisés", "mobile first"]
+  },
+  {
+    "id": "seg-003",
+    "category": "customer_segments",
+    "segment_code": "tre",
+    "title": "Segment Tunisiens Résidant à l'Étranger (TRE)",
+    "description": "Le segment TRE regroupe les Tunisiens vivant à l'étranger qui maintiennent des liens bancaires avec la Tunisie. Amen Bank propose des solutions adaptées, notamment le pack Watani, pour faciliter les virements internationaux, la gestion à distance des comptes, les opérations de change et l'accompagnement patrimonial ou immobilier en Tunisie.",
+    "needs": [
+      "Gestion à distance du compte tunisien",
+      "Virements internationaux entrants et sortants",
+      "Accès digital sécurisé depuis l'étranger",
+      "Opérations de change",
+      "Financement immobilier en Tunisie",
+      "Proximité via un service dédié TRE",
+      "Suivi des comptes sans déplacement fréquent"
+    ],
+    "recommended_services": [
+      "Pack Watani",
+      "@mennet",
+      "Amen Mobile",
+      "Virements internationaux",
+      "Services de change",
+      "Crédit immobilier TRE",
+      "Messagerie sécurisée avec l'agence"
+    ],
+    "possible_products": [
+      "Pack Watani",
+      "Compte TRE",
+      "Cartes internationales",
+      "Crédit immobilier pour non-résidents",
+      "Produits d'épargne en dinars",
+      "Services de transfert international"
+    ],
+    "language": "fr",
+    "source": "https://fr.wikipedia.org/wiki/Amen_Bank",
+    "document_type": "customer_segment",
+    "tags": ["TRE", "non-résidents", "watani", "international"]
+  },
+  {
+    "id": "seg-004",
+    "category": "customer_segments",
+    "segment_code": "professionnels",
+    "title": "Segment Professionnels",
+    "description": "Le segment Professionnels couvre les indépendants, professions libérales, artisans, commerçants et TPE. Ces clients ont besoin d'outils de trésorerie, de moyens de paiement professionnels (TPE, cartes), de virements groupés et d'un financement court ou moyen terme pour accompagner l'activité. Amen Bank propose un accompagnement personalisé en agence et des services digitaux pour le pilotage quotidien.",
+    "needs": [
+      "Compte professionnel dédié",
+      "Encaissement et TPE",
+      "Gestion de trésorerie",
+      "Virements fournisseurs et salaires",
+      "Financement d'équipement et de fond de roulement",
+      "Cartes professionnelles",
+      "Suivi des opérations en ligne"
+    ],
+    "recommended_services": [
+      "Compte professionnel",
+      "Consultation TPE",
+      "Virements unitaires et groupés",
+      "@mennet entreprises / professionnel",
+      "Crédits d'exploitation",
+      "Cartes professionnelles",
+      "Messagerie agence"
+    ],
+    "possible_products": [
+      "Compte professionnel",
+      "Carte professionnelle",
+      "Terminal de paiement électronique (TPE)",
+      "Crédit d'équipement",
+      "Facilité de caisse",
+      "Crédit fournisseur",
+      "Assurances professionnelles partenaires"
+    ],
+    "language": "fr",
+    "source": "https://www.amenbank.com.tn",
+    "document_type": "customer_segment",
+    "tags": ["professionnels", "TPE", "indépendants", "trésorerie"]
+  },
+  {
+    "id": "seg-005",
+    "category": "customer_segments",
+    "segment_code": "entreprises",
+    "title": "Segment Entreprises",
+    "description": "Le segment Entreprises s'adresse aux PME, ETI et grandes entreprises. Amen Bank accompagne les besoins de financement d'investissement, de financement du cycle d'exploitation, de commerce extérieur (crédits documentaires, lettres de crédit), de cash management et de placements. L'offre digitale permet le suivi des opérations, les virements de masse et l'instruction de demandes de crédit documentaire à l'import.",
+    "needs": [
+      "Cash management multi-comptes",
+      "Virements de masse (salaires, fournisseurs)",
+      "Financement moyen et long terme",
+      "Commerce extérieur et garanties bancaires",
+      "Crédit documentaire import",
+      "Placements de trésorerie",
+      "Reporting et suivi des engagements"
+    ],
+    "recommended_services": [
+      "@mennet corporate",
+      "Virements groupés",
+      "Crédit documentaire",
+      "Virements à l'étranger",
+      "Demandes de crédits et levée de garantie",
+      "Consultation des crédits et placements en cours",
+      "Services de change et marchés"
+    ],
+    "possible_products": [
+      "Compte entreprise",
+      "Lignes de crédit d'exploitation",
+      "Crédit d'investissement",
+      "Crédit documentaire",
+      "Lettres de garantie bancaire",
+      "Placements et SICAV institutionnelles",
+      "Solutions monétiques entreprises"
+    ],
+    "language": "fr",
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "document_type": "customer_segment",
+    "tags": ["entreprises", "PME", "corporate", "cash management", "trade finance"]
+  },
+  {
+    "id": "seg-006",
+    "category": "customer_segments",
+    "segment_code": "particuliers",
+    "title": "Individuals Segment Overview",
+    "description": "The Individuals segment includes personal banking customers who use Amen Bank for everyday banking: current accounts, savings, payment cards, consumer and housing loans, and budget tracking. They expect secure 24/7 digital access along with branch advisory when needed.",
+    "needs": [
+      "Real-time balance and transaction views",
+      "Domestic transfers",
+      "Payment cards",
+      "Savings and investments",
+      "Loan simulation and financing",
+      "Budget management"
+    ],
+    "recommended_services": [
+      "Amennet",
+      "Amen Mobile",
+      "Card services",
+      "Budget management",
+      "Credit simulator"
+    ],
+    "possible_products": [
+      "Current account",
+      "Debit/credit cards",
+      "Housing loan",
+      "Consumer loan",
+      "Savings products",
+      "Retail SICAV funds"
+    ],
+    "language": "en",
+    "source": "https://www.amenbank.com.tn",
+    "document_type": "customer_segment",
+    "tags": ["individuals", "retail", "personal banking"]
+  }
+]

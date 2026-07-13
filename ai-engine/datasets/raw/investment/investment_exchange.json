@@ -1,0 +1,113 @@
+[
+  {
+    "id": "inv-001",
+    "category": "investment",
+    "subcategory": "sicav",
+    "title": "Services SICAV Amen Bank",
+    "content": "Amen Bank propose un accès aux SICAV (Sociétés d'Investissement à Capital Variable) pour les clients souhaitant placer une partie de leur épargne sur les marchés financiers via des fonds. Sur Amen Mobile et @mennet, les clients peuvent consulter les cours des SICAV et, selon éligibilité, réaliser des opérations d'achat et de vente. Les performances passées ne préjugent pas des performances futures. Aucune valeur de cours historique n'est stockée dans cette base : seuls les services et mécanismes sont documentés.",
+    "features": [
+      "Consultation des cours SICAV",
+      "Ordres d'achat SICAV",
+      "Ordres de vente SICAV",
+      "Accès multi-canal digital"
+    ],
+    "risk_disclaimer": "Les placements en SICAV présentent un risque de perte en capital. L'information produit et les conditions en vigueur sont à confirmer auprès de la banque avant toute opération.",
+    "possible_questions": [
+      "Comment consulter les cours des SICAV ?",
+      "Puis-je acheter une SICAV depuis Amen Mobile ?",
+      "Comment vendre des parts de SICAV en ligne ?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "fr",
+    "document_type": "investment_service",
+    "tags": ["SICAV", "placement", "fonds", "achat", "vente"]
+  },
+  {
+    "id": "inv-002",
+    "category": "investment",
+    "subcategory": "stock_market",
+    "title": "Information boursière",
+    "content": "Les canaux digitaux Amen Bank permettent de consulter les cours des actions cotées sur le marché. Ce service d'information aide le client à suivre l'évolution des titres, y compris le titre Amen Bank (ticker AB) coté à la BVMT. La consultation des cours n'équivaut pas à un conseil en investissement personnalisé. Les valeurs chiffrées évoluant en continu, la base de connaissances ne conserve aucune cotation datée.",
+    "features": [
+      "Consultation des cours boursiers",
+      "Suivi informatif des titres",
+      "Accès via @mennet et Amen Mobile"
+    ],
+    "risk_disclaimer": "Investir en actions comporte un risque de perte en capital. Vérifiez toujours le cours et les conditions au moment de l'ordre.",
+    "possible_questions": [
+      "Où voir les cours de la bourse sur Amen Bank ?",
+      "Puis-je suivre le marché depuis Amennet ?",
+      "Amen Mobile affiche-t-il les cours boursiers ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/corporate/digital-bank-65-268-@mennet-.html",
+    "language": "fr",
+    "document_type": "investment_service",
+    "tags": ["bourse", "actions", "BVMT", "cours"]
+  },
+  {
+    "id": "inv-003",
+    "category": "investment",
+    "subcategory": "exchange",
+    "title": "Services de change et marché des devises",
+    "content": "Amen Bank met à disposition la consultation des cours des principales devises et un convertisseur permettant d'estimer un change. Les opérations de change effectives (billetage, transfert, règlement en devise) suivent la réglementation des changes et les conditions tarifaires de la banque. Le convertisseur mobile est un outil d'estimation, pas une confirmation définitive du cours appliqué.",
+    "features": [
+      "Cours des devises",
+      "Convertisseur de devises",
+      "Préparation d'opérations internationales",
+      "Cadre réglementaire des changes"
+    ],
+    "possible_questions": [
+      "Comment utiliser le convertisseur de devises Amen Mobile ?",
+      "Où consulter les cours de change ?",
+      "Le convertisseur donne-t-il le cours définitif ?"
+    ],
+    "source": "https://www.amenbank.com.tn/en/tla/digital-bank-53-214-amen-mobile.html",
+    "language": "fr",
+    "document_type": "investment_service",
+    "tags": ["change", "devises", "convertisseur", "exchange"]
+  },
+  {
+    "id": "inv-004",
+    "category": "investment",
+    "subcategory": "overview",
+    "title": "Vue d'ensemble des services d'investissement",
+    "content": "L'offre d'investissement digitale d'Amen Bank combine information de marché (bourse, SICAV, devises) et capacités transactionnelles limitées aux parcours autorisés (achat/vente SICAV). Les clients peuvent également consulter leurs placements en cours via @mennet. Pour une allocation patrimoniale adaptée au profil de risque, un échange avec un conseiller demeure recommandé.",
+    "features": [
+      "Information marché",
+      "Opérations SICAV",
+      "Consultation des placements",
+      "Accompagnement conseiller"
+    ],
+    "possible_questions": [
+      "Quels services d'investissement propose Amen Bank en ligne ?",
+      "Comment suivre mes placements sur Amennet ?"
+    ],
+    "source": "https://www.amenbank.com.tn",
+    "language": "fr",
+    "document_type": "investment_service",
+    "tags": ["investissement", "placements", "patrimoine"]
+  },
+  {
+    "id": "inv-005",
+    "category": "investment",
+    "subcategory": "sicav",
+    "title": "SICAV and market information services",
+    "content": "Amen Bank digital channels provide SICAV price consultation and, when eligible, SICAV buy and sell orders. Stock market prices and FX rates are also available for information purposes. This knowledge base intentionally excludes outdated price values and stores only service descriptions suitable for RAG retrieval.",
+    "features": [
+      "SICAV price lookup",
+      "SICAV purchase and sale",
+      "Equity market prices",
+      "Currency converter"
+    ],
+    "risk_disclaimer": "Market investments may lose value. Always confirm live prices and product terms before trading.",
+    "possible_questions": [
+      "How can I check SICAV prices?",
+      "Can I buy or sell SICAV funds via Amen Mobile?",
+      "Where can I see stock market quotes?"
+    ],
+    "source": "https://play.google.com/store/apps/details?id=com.amenmobile.amenbank",
+    "language": "en",
+    "document_type": "investment_service",
+    "tags": ["SICAV", "stocks", "FX", "investment"]
+  }
+]
