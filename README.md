@@ -1,86 +1,138 @@
-<<<<<<< HEAD
 # Amen Bank Intelligent Digital Banking Platform
 
-Enterprise internship platform composed of three independent parts:
+Enterprise-grade internship platform for modern digital banking with an independent AI engine.
 
-1. **Frontend** — Angular digital banking web platform
-2. **Backend** — FastAPI microservices (gateway, auth, banking, AI inference API)
-3. **AI Engine** — standalone CRISP-DM project (datasets, notebooks, vector DB, evaluation)
+## Components
 
-## Current phase completed
+| Component | Technology | Description |
+| --- | --- | --- |
+| **Frontend** | Angular, Material, Tailwind | Public website + client area + AI assistant |
+| **Backend** | FastAPI microservices | Gateway, Auth, Banking, AI inference API |
+| **AI Engine** | Python, CRISP-DM | Knowledge base, embeddings, RAG, evaluation |
 
-**AI Engine — Data Preparation (Knowledge Base Dataset)**
+## Architecture
 
-See [`ai-engine/datasets/README.md`](ai-engine/datasets/README.md).
+```text
+                    Angular Frontend
+                           |
+                    API Gateway (:8000)
+                           |
+        -------------------------------------
+        |                 |                 |
+ Authentication     Banking Service     AI Service
+   (:8001)              (:8002)           (:8003)
+        |                 |                 |
+    PostgreSQL       PostgreSQL        ChromaDB
+        |                                   |
+       Redis                          AI Engine Pipeline
+```
+
+The AI Engine is an **independent project** (`ai-engine/`). The backend AI service consumes artifacts it produces.
+
+## Quick Start
+
+### Prerequisites
+
+- Docker & Docker Compose
+- Python 3.11+
+- Node.js 20+
+
+### Run with Docker
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+| Service | URL |
+| --- | --- |
+| Frontend | http://localhost:4200 |
+| API Gateway | http://localhost:8000 |
+| API Docs | http://localhost:8000/docs |
+
+### AI Engine Pipeline
 
 ```bash
 cd ai-engine/preprocessing
 pip install -r requirements.txt
 python run_pipeline.py
+
+cd ../embeddings
+pip install -r requirements.txt
+python build_index.py
+
+cd ../evaluation
+python evaluate_retrieval.py
 ```
 
-## Target architecture
-
-```text
-Frontend → API Gateway → Auth / Banking / AI services
-                ↓
-         PostgreSQL / Redis / ChromaDB
-```
-
-The AI Engine lifecycle remains outside the backend and produces artifacts the AI service consumes.
-
-## Workspace
+## Repository Structure
 
 ```text
 AmenBank-Platform/
-  frontend/
-  backend/
-  ai-engine/
-  infrastructure/
-  docs/
-  .github/
-```
-
-Subsequent phases will implement frontend, microservices, notebooks, and DevOps after this knowledge-base foundation is validated.
-=======
-amen-bank-intelligent-platform/
-
-│
 ├── frontend/                 # Angular application
-│
-├── backend/                  # FastAPI Microservices
-│   │
+├── backend/
 │   ├── gateway/
 │   ├── auth-service/
 │   ├── banking-service/
 │   ├── ai-service/
 │   └── shared/
-│
-├── ai-engine/                # AI development project
-│   │
+├── ai-engine/
 │   ├── notebooks/
 │   ├── datasets/
 │   ├── preprocessing/
 │   ├── embeddings/
+│   ├── vector_database/
 │   ├── evaluation/
-│   └── models/
-│
+│   ├── models/
+│   └── deployment/
 ├── infrastructure/
-│   │
 │   ├── docker/
 │   ├── nginx/
 │   └── scripts/
-│
 ├── docs/
-│
-├── .github/
-│   └── workflows/
-│
+├── .github/workflows/
 ├── docker-compose.yml
-│
-├── README.md
-│
-├── .gitignore
-│
-└── LICENSE
->>>>>>> db684539f79c3a769df1c417e15142753b716f4b
+└── README.md
+```
+
+## Development Phases
+
+| Phase | Status |
+| --- | --- |
+| 0 — Project initialization | Completed |
+| 1 — AI dataset creation | Completed |
+| 2 — CRISP-DM notebooks & embeddings | Completed |
+| 3 — Backend microservices | Completed |
+| 4 — Angular frontend | Completed |
+| 5 — AI service integration | Completed |
+| 6 — Testing | Completed |
+| 7 — Deployment | Completed |
+
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [API Reference](docs/api.md)
+- [Database Schema](docs/database.md)
+- [AI Pipeline](docs/ai-pipeline.md)
+- [Deployment](docs/deployment.md)
+- [Installation](docs/installation.md)
+
+## Security
+
+- JWT authentication with refresh tokens
+- bcrypt password hashing
+- CORS configuration
+- Input validation (Pydantic v2)
+- No secrets in source control — use `.env`
+
+## Git Workflow
+
+```text
+main → develop → feature/*
+```
+
+Commit convention: `feat:`, `fix:`, `docs:`, `test:`, `refactor:`
+
+## License
+
+Proprietary — Amen Bank internship project.

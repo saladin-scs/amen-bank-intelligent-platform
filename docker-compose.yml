@@ -1,0 +1,152 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: amenbank-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-amenbank}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme_secure_password}
+      POSTGRES_DB: ${POSTGRES_DB:-amenbank}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./infrastructure/docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-amenbank}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - amenbank-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: amenbank-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - amenbank-net
+
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: amenbank-chromadb
+    volumes:
+      - chroma-data:/chroma/chroma
+    ports:
+      - "8100:8000"
+    environment:
+      ANONYMIZED_TELEMETRY: "false"
+    networks:
+      - amenbank-net
+
+  auth-service:
+    build:
+      context: ./backend
+      dockerfile: auth-service/Dockerfile
+    container_name: amenbank-auth
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-amenbank}:${POSTGRES_PASSWORD:-changeme_secure_password}@postgres:5432/${POSTGRES_DB:-amenbank}
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8001:8001"
+    networks:
+      - amenbank-net
+
+  banking-service:
+    build:
+      context: ./backend
+      dockerfile: banking-service/Dockerfile
+    container_name: amenbank-banking
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-amenbank}:${POSTGRES_PASSWORD:-changeme_secure_password}@postgres:5432/${POSTGRES_DB:-amenbank}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8002:8002"
+    networks:
+      - amenbank-net
+
+  ai-service:
+    build:
+      context: .
+      dockerfile: backend/ai-service/Dockerfile
+    container_name: amenbank-ai
+    env_file: .env
+    environment:
+      CHROMA_HOST: chromadb
+      CHROMA_PORT: 8000
+    depends_on:
+      - chromadb
+    ports:
+      - "8003:8003"
+    volumes:
+      - ./ai-engine/vector_database:/app/vector_database
+    networks:
+      - amenbank-net
+
+  gateway:
+    build:
+      context: ./backend
+      dockerfile: gateway/Dockerfile
+    container_name: amenbank-gateway
+    env_file: .env
+    environment:
+      AUTH_SERVICE_URL: http://auth-service:8001
+      BANKING_SERVICE_URL: http://banking-service:8002
+      AI_SERVICE_URL: http://ai-service:8003
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - auth-service
+      - banking-service
+      - ai-service
+      - redis
+    ports:
+      - "8000:8000"
+    networks:
+      - amenbank-net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: amenbank-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - gateway
+    networks:
+      - amenbank-net
+
+  nginx:
+    image: nginx:alpine
+    container_name: amenbank-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./infrastructure/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - gateway
+      - frontend
+    networks:
+      - amenbank-net
+
+volumes:
+  postgres-data:
+  chroma-data:
+
+networks:
+  amenbank-net:
+    driver: bridge
